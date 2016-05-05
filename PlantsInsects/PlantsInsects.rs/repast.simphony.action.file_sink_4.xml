@@ -1,0 +1,14 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>plantdata</name>
+  <dataSet>Plant Damage</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>PlantId</string>
+    <string>TotalDamge</string>
+    <string>MaxDamage</string>
+    <string>tick</string>
+  </sourceIds>
+  <fileName>plant.txt</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

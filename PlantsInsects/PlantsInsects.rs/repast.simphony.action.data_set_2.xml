@@ -1,0 +1,58 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>movement</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>1343529699</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>crop to crop</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>crop to crop</id>
+        <className>plantsInsects.InsectParams</className>
+        <methodName>getFromCropToCrop</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>crop to trap</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>crop to trap</id>
+        <className>plantsInsects.InsectParams</className>
+        <methodName>getFromCropToTrap</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>trap to crop</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>trap to crop</id>
+        <className>plantsInsects.InsectParams</className>
+        <methodName>getFromTrapToCrop</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>trap to trap</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>trap to trap</id>
+        <className>plantsInsects.InsectParams</className>
+        <methodName>getFromTrapToTrap</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>
