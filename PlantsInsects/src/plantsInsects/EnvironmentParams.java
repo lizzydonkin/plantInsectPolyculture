@@ -1,6 +1,6 @@
 package plantsInsects;
 
-import plantsInsects.enums.PlantSpacialDistribution;
+import plantsInsects.enums.PlantSpacialDistribution; 
 
 public class EnvironmentParams {
 
@@ -11,7 +11,7 @@ public class EnvironmentParams {
 
 
 	public EnvironmentParams() {
-		this.gridSize = 100;
+		this.gridSize = 100; // grid is always square 
 		this.numInsects = 1;
 		this.numPlants = 2;
 		this.distribution = PlantSpacialDistribution.Borders;
