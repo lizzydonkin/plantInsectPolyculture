@@ -2,16 +2,8 @@ package plantsInsects;
 
 import java.awt.Color;
 import java.util.ArrayList;
-import java.util.HashMap;
-
 import plantsInsects.enums.InsectInitialDistribution;
 import plantsInsects.enums.InsectSensoryMode;
-import repast.simphony.context.Context;
-import repast.simphony.engine.environment.RunEnvironment;
-import repast.simphony.engine.schedule.ScheduledMethod;
-import repast.simphony.random.RandomHelper;
-import repast.simphony.space.grid.Grid;
-import repast.simphony.util.ContextUtils;
 
 public class InsectParams {
 

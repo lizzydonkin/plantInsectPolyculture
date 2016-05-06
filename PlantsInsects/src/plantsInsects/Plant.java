@@ -2,19 +2,9 @@ package plantsInsects;
 
 import java.util.ArrayList;
 
-import org.apache.poi.util.SystemOutLogger;
-
 import repast.simphony.context.Context;
-import repast.simphony.engine.environment.RunEnvironment;
-import repast.simphony.engine.schedule.Schedule;
-import repast.simphony.engine.schedule.ScheduleParameters;
-import repast.simphony.engine.schedule.ScheduledMethod;
-import repast.simphony.random.RandomHelper;
-import repast.simphony.space.graph.Network;
 import repast.simphony.space.grid.Grid;
 import repast.simphony.space.grid.GridPoint;
-import repast.simphony.util.ContextUtils;
-import repast.simphony.util.SimUtilities;
 
 public class Plant {
 	private Grid<Object> grid;

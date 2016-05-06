@@ -3,7 +3,6 @@ package plantsInsects;
 import java.util.ArrayList;
 import java.util.List;
 
-import plantsInsects.enums.PlantType;
 import repast.simphony.context.Context;
 import repast.simphony.engine.environment.RunEnvironment;
 import repast.simphony.engine.schedule.ScheduledMethod;

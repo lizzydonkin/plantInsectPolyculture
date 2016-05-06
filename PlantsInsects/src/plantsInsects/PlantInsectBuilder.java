@@ -1,6 +1,5 @@
 package plantsInsects;
 
-import java.awt.FlowLayout;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -9,34 +8,19 @@ import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Set;
 
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-
 import cern.jet.random.Exponential;
 import plantsInsects.ui.ModelUserPanel;
 import repast.simphony.context.Context;
 import repast.simphony.context.space.grid.GridFactory;
 import repast.simphony.context.space.grid.GridFactoryFinder;
-import repast.simphony.data2.BatchParamMapFileWriter;
-import repast.simphony.data2.engine.DataSetComponentControllerAction;
-import repast.simphony.data2.engine.DataSetDescriptor;
 import repast.simphony.dataLoader.ContextBuilder;
-import repast.simphony.engine.environment.RunEnvironment;
-import repast.simphony.engine.schedule.ScheduleParameters;
-import repast.simphony.engine.schedule.ScheduledMethod;
-import repast.simphony.parameter.Parameters;
-import repast.simphony.parameter.ParametersCreator;
 import repast.simphony.random.RandomHelper;
 import repast.simphony.space.grid.Grid;
 import repast.simphony.space.grid.GridBuilderParameters;
 import repast.simphony.space.grid.GridPoint;
 import repast.simphony.space.grid.RandomGridAdder;
-import repast.simphony.space.grid.SimpleGridAdder;
 import repast.simphony.space.grid.StickyBorders;
-import repast.simphony.space.grid.WrapAroundBorders;
 import repast.simphony.ui.RSApplication;
-import repast.simphony.userpanel.ui.UserPanelCreator;
 
 public class PlantInsectBuilder implements ContextBuilder<Object> {
 
