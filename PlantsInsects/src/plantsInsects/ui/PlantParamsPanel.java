@@ -158,7 +158,7 @@ public class PlantParamsPanel extends JPanel implements ActionListener {
 		percentSpinner = new JSpinner();
 		percentSpinner
 				.setToolTipText("The percentage of the field that this plant species will take.");
-		percentSpinner.setModel(new SpinnerNumberModel(0.25, 0.0, 1.0, 0.01));
+		percentSpinner.setModel(new SpinnerNumberModel(0.25, 0.0, 1.0, 0.001));
 		GridBagConstraints gbc_spinnerPlantPerc = new GridBagConstraints();
 		gbc_spinnerPlantPerc.fill = GridBagConstraints.HORIZONTAL;
 		gbc_spinnerPlantPerc.insets = new Insets(0, 0, 5, 5);

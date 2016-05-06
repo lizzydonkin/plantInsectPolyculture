@@ -210,7 +210,7 @@ public class PlantInsectBuilder implements ContextBuilder<Object> {
 					occupied);
 			break;
 		case Blocks:
-			result = getBlockPlantPoints(envParams.getGridSize(), occupied);
+			result = getBlockPlantPoints(envParams.getGridSize(), plantPerc, occupied);
 		/*	result = getBlockPlantPoints(envParams.getGridSize(), plantPerc,
 					occupied);*/
 		default:
@@ -337,74 +337,68 @@ public class PlantInsectBuilder implements ContextBuilder<Object> {
 		return randomPoints;
 	}
 	
-	
-	private ArrayList<GridPoint> getBlockPlantPoints(int gridSize,  ArrayList<GridPoint> occupied) {
-		//System.out.println("getBlockPlantPoints was called!");
-		double patchCount = 25;
+	//The number of plants in patches is calculated depending on the percentage of the first plant, this is then divided into 10x10 patches and a remaining smaller patch(if required) of a width of 10 and a height dependent on the number of remaining plants 
+	private ArrayList<GridPoint> getBlockPlantPoints(int gridSize,double plantPerc, ArrayList<GridPoint> occupied) {
+		double numPatches = plantPerc * 100; // the percentage of the first plant 
+		double a = (long)numPatches; // returns the whole number part of the decimal 
+		double  b = numPatches - a;	
+		double patchCount = a; // the number of 10 x 10 patches
+		double c = b * 100; 
+		double smallPatchSize = Math.round((c/10)); // the height of the remaining smaller patch, width is always 10
+		int smallPatchSizeInt = (int)smallPatchSize;
 		int patchSize = 10;
 		ArrayList<GridPoint> blockPlantPoints = new ArrayList<GridPoint>();
 		while (patchCount > 0) {	
-		  int x = RandomHelper.nextIntFromTo(0, gridSize - 1 - patchSize);
-		  int y = RandomHelper.nextIntFromTo(0, gridSize - 1 - patchSize);
-		  GridPoint p = new GridPoint(x, y);
-		  //System.out.println("Trying: "+x+" "+y);
-		  ArrayList<GridPoint> patchPoints = new ArrayList<GridPoint>();
-		  patchPoints.add(p);
-		  //System.out.println(patchPoints);
-		  
-		  boolean isGoodPatch = true;
-		 for (int j = x ; j < x + patchSize; j++){// for (int j = x + 1 ; j < x + patchSize; j++){
-			    if (!isGoodPatch) {break;} 
+			int x = RandomHelper.nextIntFromTo(0, gridSize - 1 - patchSize);
+			int y = RandomHelper.nextIntFromTo(0, gridSize - 1 - patchSize);
+			ArrayList<GridPoint> patchPoints = new ArrayList<GridPoint>();
+			boolean isGoodPatch = true;
+			for (int j = x ; j < x + patchSize; j++){
+				if (!isGoodPatch) {break;} 
 				for (int k = y; k < y + patchSize; k++){
-						GridPoint point = new GridPoint(j,k);
-						if(blockPlantPoints.contains(point) || occupied.contains(point)) {
-							//System.out.println("No good: "+j + " " +k);
-							 isGoodPatch = false;
-							 break;
-						} else {
-							patchPoints.add(point);
-						}
-				} // k
-		  } // j
-		  if (isGoodPatch){
-			  //System.out.println("Good patch found at: "+x + " " + y);
-			  blockPlantPoints.addAll(patchPoints);
-			  patchCount--;
-		  } else {
-			  patchPoints.clear();
-		  }
-					
-		} // for patchCount
-		return blockPlantPoints;
-	}
-
-	/*private ArrayList<GridPoint> getBlockPlantPoints(int gridSize,
-			double plantPerc, ArrayList<GridPoint> occupied) {
-		ArrayList<GridPoint> result = new ArrayList<GridPoint>();
-
-		int rows = (int) (gridSize * plantPerc);
-
-		for (int i = 0; i < gridSize; i++) {
-			GridPoint testPoint = new GridPoint(i, 0);
-			if (!occupied.contains(testPoint)) {
-				for (int j = 0; j < gridSize / 2; j++) {
-					GridPoint p1 = new GridPoint(i, j);
-					GridPoint p2 = new GridPoint(gridSize - 1 - i, gridSize - 1
-							- j);
-					result.add(p1); 
-					System.out.println ("p1" + p1);
-					result.add(p2);
-					System.out.println ("p2" + p2);
-				}
-
-				rows--;
-				if (rows <= 0)
-					break;
+					GridPoint point = new GridPoint(j,k);
+					if(blockPlantPoints.contains(point) || occupied.contains(point)) { // if the patch overlaps, try a new point		 
+						isGoodPatch = false;
+						break;
+					} else {
+						patchPoints.add(point);
+					}
+				} //k
+			} //j
+			if (isGoodPatch){
+				blockPlantPoints.addAll(patchPoints);
+				patchCount--;
+			} else {
+				patchPoints.clear();
 			}
 		}
-
-		return result;
-	}*/
+		int smallPatches = 1;
+		while (smallPatches > 0) {		
+			int aX = RandomHelper.nextIntFromTo(0, gridSize - 1 - 10);
+			int aY = RandomHelper.nextIntFromTo(0, gridSize - 1 - smallPatchSizeInt);
+			ArrayList<GridPoint> smallerPatchPoints = new ArrayList<GridPoint>(); 
+			boolean isGoodPatch = true;
+			for (int j = aX ; j < aX + 10; j++){
+				if (!isGoodPatch) {break;} 
+				for (int k = aY; k < aY + smallPatchSizeInt; k++){
+					GridPoint point = new GridPoint(j,k);
+					if(blockPlantPoints.contains(point) || occupied.contains(point)) {
+						isGoodPatch = false;
+						break;
+					} else {
+						smallerPatchPoints.add(point);
+					}
+				}//k
+			}//j
+			if (isGoodPatch){
+				blockPlantPoints.addAll(smallerPatchPoints);
+				smallPatches--;
+			} else {
+				smallerPatchPoints.clear();
+			}
+		}
+		return blockPlantPoints;
+	}
 
 	private ArrayList<GridPoint> getUnoccupied(int gridSize,
 			ArrayList<GridPoint> occupied) {
