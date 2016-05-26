@@ -133,8 +133,6 @@ public class Insect {
 
 	public void insectUpdateEmigrationRate(){
 		GridPoint insPoint = grid.getLocation(this);
-		//System.out.println("dead= " + dead);
-	   // System.out.println("insPoint= " + insPoint);
 		int x = insPoint.getX();
 		int y = insPoint.getY();
 		Plant currentPlant = getPlantAt(x,y);

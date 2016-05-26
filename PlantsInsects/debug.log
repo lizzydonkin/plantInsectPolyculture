@@ -1,573 +1,772 @@
-INFO  [AWT-EventQueue-0] 2016-05-24 15:52:11,441 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7485
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5804
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7486
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5805
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5806
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5807
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7487
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5808
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5809
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5810
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5811
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5812
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7488
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5813
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5814
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5815
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7489
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5816
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7490
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7491
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5817
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7492
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5818
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5819
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5820
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7493
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7494
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7495
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5821
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7496
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7497
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7498
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5822
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7499
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5823
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5824
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7500
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5825
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7501
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7502
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7503
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7504
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7505
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7506
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5826
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7507
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5827
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5828
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5829
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5830
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7508
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5831
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5832
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7509
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7510
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5833
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5834
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5835
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5836
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5837
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5838
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7511
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7512
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7513
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5839
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7514
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7515
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5840
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5841
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5842
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7516
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7517
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7518
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5843
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7519
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5844
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5845
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5846
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7520
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7521
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5847
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7522
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7523
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7524
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7525
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7526
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7527
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7528
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5848
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7529
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5849
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5850
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5851
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7530
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5852
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5853
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7531
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5854
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7532
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7533
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7534
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7535
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7536
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7537
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7538
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5855
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7539
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5856
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7540
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5857
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7541
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5858
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5859
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7542
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5860
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7543
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5861
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5862
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5863
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5864
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7544
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7545
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7546
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7547
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7548
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5865
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5866
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7549
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7550
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5867
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7551
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5868
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7552
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7553
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5869
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7554
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5870
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7555
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5871
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7556
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5872
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5873
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7557
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7558
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7559
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7560
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7561
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7562
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7563
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5874
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5875
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7564
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7565
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7566
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5876
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7567
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7568
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7569
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5877
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7570
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7571
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7572
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7573
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5878
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7574
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7575
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7576
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7577
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5879
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7578
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7579
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7580
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7581
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7582
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7583
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5880
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5881
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5882
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5883
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5884
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5885
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7584
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7585
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7586
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5886
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5887
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7587
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7588
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7589
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7590
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5888
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7591
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5889
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7592
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7593
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7594
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5890
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7595
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5891
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5892
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5893
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5894
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7596
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5895
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7597
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5896
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7598
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7599
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5897
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7600
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5898
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7601
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5899
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7602
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7603
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7604
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7605
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5900
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7606
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5901
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7607
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 5902
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7608
+INFO  [Thread-10] 2016-05-26 15:05:10,293 repast.simphony.batch.ssh.LocalSession - total damage= 7609
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7610
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7611
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7612
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7613
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5903
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5904
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7614
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7615
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7616
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5905
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5906
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5907
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7617
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7618
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5908
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7619
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7620
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5909
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7621
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7622
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7623
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5910
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5911
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7624
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7625
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7626
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5912
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5913
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5914
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5915
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5916
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7627
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5917
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5918
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7628
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7629
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5919
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5920
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5921
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7630
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7631
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5922
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7632
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5923
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7633
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7634
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7635
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5924
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7636
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7637
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7638
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7639
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7640
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7641
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5925
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5926
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5927
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7642
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5928
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5929
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5930
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5931
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5932
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7643
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5933
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7644
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5934
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7645
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5935
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5936
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5937
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7646
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5938
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7647
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5939
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7648
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7649
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5940
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7650
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7651
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5941
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5942
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7652
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7653
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5943
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7654
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7655
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5944
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7656
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7657
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7658
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5945
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5946
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7659
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7660
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5947
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7661
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5948
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5949
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5950
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5951
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7662
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7663
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7664
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7665
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7666
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7667
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7668
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7669
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5952
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5953
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5954
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7670
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5955
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7671
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5956
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7672
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7673
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7674
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5957
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7675
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5958
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7676
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5959
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5960
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7677
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7678
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7679
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5961
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7680
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5962
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7681
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5963
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5964
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7682
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7683
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5965
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5966
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7684
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5967
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7685
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5968
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7686
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5969
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7687
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7688
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7689
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5970
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5971
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5972
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5973
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5974
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7690
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7691
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5975
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7692
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5976
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5977
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5978
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7693
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5979
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7694
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7695
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5980
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7696
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7697
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5981
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5982
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5983
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5984
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5985
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5986
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5987
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5988
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5989
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5990
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7698
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7699
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7700
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5991
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5992
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7701
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5993
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7702
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7703
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5994
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7704
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7705
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7706
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7707
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7708
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5995
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5996
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7709
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5997
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7710
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7711
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5998
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 5999
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6000
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7712
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7713
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6001
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7714
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6002
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7715
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7716
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6003
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6004
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7717
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7718
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6005
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7719
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7720
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6006
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6007
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6008
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7721
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7722
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7723
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6009
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6010
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6011
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7724
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6012
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6013
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7725
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6014
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7726
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6015
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6016
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7727
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6017
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6018
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6019
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7728
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7729
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7730
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6020
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6021
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7731
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7732
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6022
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7733
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7734
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6023
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6024
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6025
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6026
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7735
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7736
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6027
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7737
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7738
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6028
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6029
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7739
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7740
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7741
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7742
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6030
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6031
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6032
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7743
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7744
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7745
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6033
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7746
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7747
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6034
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6035
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6036
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7748
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7749
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6037
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6038
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7750
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7751
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6039
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7752
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7753
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7754
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6040
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6041
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7755
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7756
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7757
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7758
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6042
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6043
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7759
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7760
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7761
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6044
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7762
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6045
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7763
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6046
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7764
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7765
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7766
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7767
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6047
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7768
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7769
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7770
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6048
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7771
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7772
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7773
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7774
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6049
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6050
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6051
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6052
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7775
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7776
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7777
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7778
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6053
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7779
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7780
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7781
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7782
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6054
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6055
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7783
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7784
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7785
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7786
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7787
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7788
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7789
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6056
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7790
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7791
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7792
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7793
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6057
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7794
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6058
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7795
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7796
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6059
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7797
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7798
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6060
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6061
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6062
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6063
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7799
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7800
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6064
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6065
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7801
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7802
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6066
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7803
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6067
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6068
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6069
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7804
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7805
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6070
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6071
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6072
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6073
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6074
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6075
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7806
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6076
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6077
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6078
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7807
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6079
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7808
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7809
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6080
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7810
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7811
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7812
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7813
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7814
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7815
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7816
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7817
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7818
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7819
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7820
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7821
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7822
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7823
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6081
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7824
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7825
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7826
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6082
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7827
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7828
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7829
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7830
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6083
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6084
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 7831
+INFO  [Thread-10] 2016-05-26 15:05:10,308 repast.simphony.batch.ssh.LocalSession - total damage= 6085
+INFO  [AWT-EventQueue-0] 2016-05-26 15:06:47,197 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-05-26 15:06:47,329 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
 	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
 	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-24 15:52:22,922 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost3068603421422006913.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464101538849 ...
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-24 15:52:22,944 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-24 15:52:22,944 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0682
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-24 15:52:22,960 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464101538849\Elizabeth_localhost3068603421422006913.zip
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-24 15:52:24,047 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-3-thread-1] 2016-05-24 15:53:24,063 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464101538849 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-24 15:54:24,075 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464101538849 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-24 15:54:24,075 repast.simphony.batch.ssh.SessionsDriver - Run Time: 2.0186
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-24 15:54:24,091 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464101538849
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-24 15:54:24,106 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-24 15:54:24,144 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0012
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-24 15:54:24,144 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 2.0886
-INFO  [AWT-EventQueue-0] 2016-05-25 11:40:52,365 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 11:40:52,505 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+INFO  [SwingWorker-pool-2-thread-1] 2016-05-26 15:06:58,800 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost1511938294206544224.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464271614631 ...
+INFO  [SwingWorker-pool-2-thread-1] 2016-05-26 15:06:58,853 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-1] 2016-05-26 15:06:58,853 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0704
+INFO  [SwingWorker-pool-2-thread-1] 2016-05-26 15:06:58,853 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464271614631\Elizabeth_localhost1511938294206544224.zip
+INFO  [SwingWorker-pool-2-thread-1] 2016-05-26 15:07:00,150 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-3-thread-1] 2016-05-26 15:08:00,160 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464271614631 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-1] 2016-05-26 15:08:00,160 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0218
+INFO  [SwingWorker-pool-2-thread-1] 2016-05-26 15:08:00,175 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464271614631
+INFO  [SwingWorker-pool-2-thread-1] 2016-05-26 15:08:00,191 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-1] 2016-05-26 15:08:00,222 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0010
+INFO  [SwingWorker-pool-2-thread-1] 2016-05-26 15:08:00,222 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.0935
+INFO  [AWT-EventQueue-0] 2016-05-26 15:09:33,894 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-05-26 15:09:33,910 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
 	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
 	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 11:41:07,808 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost4350368626391494861.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464172862928 ...
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 11:41:07,936 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 11:41:08,507 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0835
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 11:41:08,507 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464172862928\Elizabeth_localhost4350368626391494861.zip
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 11:41:12,328 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [Thread-9] 2016-05-25 11:42:03,807 repast.simphony.batch.ssh.LocalSession - FATAL [Thread-17] 11:42:03,805 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-INFO  [Thread-9] 2016-05-25 11:42:03,808 repast.simphony.batch.ssh.LocalSession - Current tick (7.0)
-INFO  [Thread-9] 2016-05-25 11:42:03,808 repast.simphony.batch.ssh.LocalSession - java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-INFO  [Thread-9] 2016-05-25 11:42:03,808 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-INFO  [Thread-9] 2016-05-25 11:42:03,808 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-INFO  [Thread-9] 2016-05-25 11:42:03,809 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-INFO  [Thread-9] 2016-05-25 11:42:03,809 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-INFO  [Thread-9] 2016-05-25 11:42:03,809 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
-INFO  [Thread-9] 2016-05-25 11:42:03,809 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-INFO  [Thread-9] 2016-05-25 11:42:03,809 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-INFO  [Thread-9] 2016-05-25 11:42:03,810 repast.simphony.batch.ssh.LocalSession - 	at java.lang.Thread.run(Unknown Source)
-INFO  [Thread-9] 2016-05-25 11:42:03,810 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.reflect.InvocationTargetException
-INFO  [Thread-9] 2016-05-25 11:42:03,810 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect$$FastClassByCGLIB$$3ff3fd53.invoke(<generated>)
-INFO  [Thread-9] 2016-05-25 11:42:03,810 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-INFO  [Thread-9] 2016-05-25 11:42:03,810 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-INFO  [Thread-9] 2016-05-25 11:42:03,811 repast.simphony.batch.ssh.LocalSession - 	... 7 more
-INFO  [Thread-9] 2016-05-25 11:42:03,811 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.NullPointerException
-INFO  [Thread-9] 2016-05-25 11:42:03,811 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect.moveTo(Insect.java:98)
-INFO  [Thread-9] 2016-05-25 11:42:03,811 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect.step(Insect.java:64)
-INFO  [Thread-9] 2016-05-25 11:42:03,811 repast.simphony.batch.ssh.LocalSession - 	... 10 more
-INFO  [pool-3-thread-1] 2016-05-25 11:42:12,336 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464172862928 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 11:43:12,336 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464172862928 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 11:44:12,337 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464172862928 for DONE:  no
-INFO  [Thread-9] 2016-05-25 11:44:15,958 repast.simphony.batch.ssh.LocalSession - FATAL [Thread-180] 11:44:15,956 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-INFO  [Thread-9] 2016-05-25 11:44:15,958 repast.simphony.batch.ssh.LocalSession - Current tick (57.0)
-INFO  [Thread-9] 2016-05-25 11:44:15,959 repast.simphony.batch.ssh.LocalSession - java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-INFO  [Thread-9] 2016-05-25 11:44:15,959 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-INFO  [Thread-9] 2016-05-25 11:44:15,959 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-INFO  [Thread-9] 2016-05-25 11:44:15,959 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-INFO  [Thread-9] 2016-05-25 11:44:15,959 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-INFO  [Thread-9] 2016-05-25 11:44:15,960 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
-INFO  [Thread-9] 2016-05-25 11:44:15,960 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-INFO  [Thread-9] 2016-05-25 11:44:15,960 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-INFO  [Thread-9] 2016-05-25 11:44:15,960 repast.simphony.batch.ssh.LocalSession - 	at java.lang.Thread.run(Unknown Source)
-INFO  [Thread-9] 2016-05-25 11:44:15,960 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.reflect.InvocationTargetException
-INFO  [Thread-9] 2016-05-25 11:44:15,960 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect$$FastClassByCGLIB$$3ff3fd53.invoke(<generated>)
-INFO  [Thread-9] 2016-05-25 11:44:15,961 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-INFO  [Thread-9] 2016-05-25 11:44:15,961 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-INFO  [Thread-9] 2016-05-25 11:44:15,961 repast.simphony.batch.ssh.LocalSession - 	... 7 more
-INFO  [Thread-9] 2016-05-25 11:44:15,961 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.NullPointerException
-INFO  [Thread-9] 2016-05-25 11:44:15,961 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect.moveTo(Insect.java:98)
-INFO  [Thread-9] 2016-05-25 11:44:15,961 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect.step(Insect.java:64)
-INFO  [Thread-9] 2016-05-25 11:44:15,961 repast.simphony.batch.ssh.LocalSession - 	... 10 more
-INFO  [pool-3-thread-1] 2016-05-25 11:45:12,338 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464172862928 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 11:45:12,339 repast.simphony.batch.ssh.SessionsDriver - Run Time: 4.0638
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 11:45:12,415 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464172862928
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 11:45:12,442 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 11:45:12,481 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0024
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 11:45:12,482 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 4.1600
-INFO  [AWT-EventQueue-0] 2016-05-25 12:23:19,922 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 12:23:19,929 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+INFO  [SwingWorker-pool-2-thread-2] 2016-05-26 15:09:44,012 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost957035242629853602.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464271779992 ...
+INFO  [SwingWorker-pool-2-thread-2] 2016-05-26 15:09:44,087 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-2] 2016-05-26 15:09:44,087 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0682
+INFO  [SwingWorker-pool-2-thread-2] 2016-05-26 15:09:44,087 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464271779992\Elizabeth_localhost957035242629853602.zip
+INFO  [SwingWorker-pool-2-thread-2] 2016-05-26 15:09:45,510 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-4-thread-1] 2016-05-26 15:10:45,520 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464271779992 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-2] 2016-05-26 15:10:45,520 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0239
+INFO  [SwingWorker-pool-2-thread-2] 2016-05-26 15:10:45,520 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464271779992
+INFO  [SwingWorker-pool-2-thread-2] 2016-05-26 15:10:45,520 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-2] 2016-05-26 15:10:45,576 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0009
+INFO  [SwingWorker-pool-2-thread-2] 2016-05-26 15:10:45,576 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.0933
+INFO  [AWT-EventQueue-0] 2016-05-26 15:10:57,902 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-05-26 15:10:57,918 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
 	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
 	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 12:23:31,778 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost7449582156779046123.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464175407505 ...
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 12:23:31,812 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 12:23:31,813 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0718
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 12:23:31,813 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464175407505\Elizabeth_localhost7449582156779046123.zip
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 12:23:34,962 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-4-thread-1] 2016-05-25 12:24:34,963 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464175407505 for DONE:  no
-INFO  [pool-4-thread-1] 2016-05-25 12:25:34,964 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464175407505 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 12:25:34,964 repast.simphony.batch.ssh.SessionsDriver - Run Time: 2.0525
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 12:25:34,970 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464175407505
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 12:25:34,973 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 12:25:35,012 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0008
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 12:25:35,012 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 2.1302
-INFO  [AWT-EventQueue-0] 2016-05-25 12:33:16,171 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 12:33:16,179 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+INFO  [SwingWorker-pool-2-thread-3] 2016-05-26 15:11:08,959 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost3520467439167073742.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464271864704 ...
+INFO  [SwingWorker-pool-2-thread-3] 2016-05-26 15:11:08,994 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-3] 2016-05-26 15:11:08,994 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0715
+INFO  [SwingWorker-pool-2-thread-3] 2016-05-26 15:11:08,994 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464271864704\Elizabeth_localhost3520467439167073742.zip
+INFO  [SwingWorker-pool-2-thread-3] 2016-05-26 15:11:10,172 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-5-thread-1] 2016-05-26 15:12:10,172 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464271864704 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-3] 2016-05-26 15:12:10,173 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0196
+INFO  [SwingWorker-pool-2-thread-3] 2016-05-26 15:12:10,174 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464271864704
+INFO  [SwingWorker-pool-2-thread-3] 2016-05-26 15:12:10,174 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-3] 2016-05-26 15:12:10,174 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0000
+INFO  [SwingWorker-pool-2-thread-3] 2016-05-26 15:12:10,174 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.0913
+INFO  [AWT-EventQueue-0] 2016-05-26 15:13:48,586 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-05-26 15:13:48,602 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
 	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
 	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 12:33:27,575 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost7431699942739406836.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464176003230 ...
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 12:33:27,612 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 12:33:27,613 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0730
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 12:33:27,613 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464176003230\Elizabeth_localhost7431699942739406836.zip
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 12:33:31,237 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-5-thread-1] 2016-05-25 12:34:31,237 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464176003230 for DONE:  no
-INFO  [pool-5-thread-1] 2016-05-25 12:35:31,238 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464176003230 for DONE:  no
-INFO  [pool-5-thread-1] 2016-05-25 12:36:31,239 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464176003230 for DONE:  no
-INFO  [pool-5-thread-1] 2016-05-25 12:37:31,239 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464176003230 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 12:37:31,240 repast.simphony.batch.ssh.SessionsDriver - Run Time: 4.0605
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 12:37:31,245 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464176003230
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 12:37:31,251 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 12:37:31,382 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0023
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 12:37:31,382 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 4.1364
-INFO  [AWT-EventQueue-0] 2016-05-25 12:51:21,534 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 12:51:21,540 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+INFO  [SwingWorker-pool-2-thread-4] 2016-05-26 15:13:59,204 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost6481529768317440831.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464272035110 ...
+INFO  [SwingWorker-pool-2-thread-4] 2016-05-26 15:13:59,253 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-4] 2016-05-26 15:13:59,253 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0690
+INFO  [SwingWorker-pool-2-thread-4] 2016-05-26 15:13:59,253 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464272035110\Elizabeth_localhost6481529768317440831.zip
+INFO  [SwingWorker-pool-2-thread-4] 2016-05-26 15:14:00,506 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-6-thread-1] 2016-05-26 15:15:00,522 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464272035110 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-4] 2016-05-26 15:15:00,523 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0212
+INFO  [SwingWorker-pool-2-thread-4] 2016-05-26 15:15:00,528 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464272035110
+INFO  [SwingWorker-pool-2-thread-4] 2016-05-26 15:15:00,533 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-4] 2016-05-26 15:15:00,539 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0002
+INFO  [SwingWorker-pool-2-thread-4] 2016-05-26 15:15:00,539 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.0906
+INFO  [AWT-EventQueue-0] 2016-05-26 15:28:03,123 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-05-26 15:28:03,123 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
 	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
 	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 12:51:32,695 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost8740637413373031332.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 ...
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 12:51:32,854 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 12:51:32,855 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0767
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 12:51:32,855 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256\Elizabeth_localhost8740637413373031332.zip
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 12:51:39,067 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-6-thread-1] 2016-05-25 12:52:39,069 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 12:53:39,070 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 12:54:39,070 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 12:55:39,071 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 12:56:39,072 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 12:57:39,072 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 12:58:39,074 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 12:59:39,074 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:00:39,075 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:01:39,075 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:02:39,076 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:03:39,076 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:04:39,077 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:05:39,078 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:06:39,079 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:07:39,080 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:08:39,080 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:09:39,082 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:10:39,082 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:11:39,083 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:12:39,084 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:13:39,085 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:14:39,085 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:15:39,086 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:16:39,087 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:17:39,088 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:18:39,088 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:19:39,089 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:20:39,091 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:21:39,091 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:22:39,092 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:23:39,093 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:24:39,094 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:25:39,096 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:26:39,097 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:27:39,097 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:28:39,098 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:29:39,099 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:30:39,100 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:31:39,100 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:32:39,101 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:33:39,102 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:34:39,103 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:35:39,104 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:36:39,105 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:37:39,106 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:38:39,106 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:39:39,107 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:40:39,108 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:41:39,108 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:42:39,109 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:43:39,110 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:44:39,111 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:45:39,113 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:46:39,114 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:47:39,115 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:48:39,116 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:49:39,117 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:50:39,117 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:51:39,118 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:52:39,119 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:53:39,119 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:54:39,120 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:55:39,121 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:56:39,122 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:57:39,123 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 13:58:39,123 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464177088256 for DONE:  no
-INFO  [AWT-EventQueue-0] 2016-05-25 14:04:54,479 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 14:04:54,668 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+INFO  [SwingWorker-pool-2-thread-5] 2016-05-26 15:28:13,726 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost3446113657935865175.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464272889670 ...
+INFO  [SwingWorker-pool-2-thread-5] 2016-05-26 15:28:13,759 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-5] 2016-05-26 15:28:13,760 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0682
+INFO  [SwingWorker-pool-2-thread-5] 2016-05-26 15:28:13,760 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464272889670\Elizabeth_localhost3446113657935865175.zip
+INFO  [SwingWorker-pool-2-thread-5] 2016-05-26 15:28:15,079 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-7-thread-1] 2016-05-26 15:29:15,092 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464272889670 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-5] 2016-05-26 15:29:15,093 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0222
+INFO  [SwingWorker-pool-2-thread-5] 2016-05-26 15:29:15,098 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464272889670
+INFO  [SwingWorker-pool-2-thread-5] 2016-05-26 15:29:15,100 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-5] 2016-05-26 15:29:15,116 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0004
+INFO  [SwingWorker-pool-2-thread-5] 2016-05-26 15:29:15,116 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.0910
+INFO  [AWT-EventQueue-0] 2016-05-26 15:34:46,118 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-05-26 15:34:46,139 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
 	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
 	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:05:10,993 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost99470548871740154.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464181505298 ...
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:05:11,038 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:05:11,040 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0957
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:05:11,040 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464181505298\Elizabeth_localhost99470548871740154.zip
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:05:15,096 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-3-thread-1] 2016-05-25 14:06:15,107 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464181505298 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 14:07:15,108 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464181505298 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 14:08:15,108 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464181505298 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 14:09:15,109 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464181505298 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 14:10:15,110 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464181505298 for DONE:  no
-INFO  [Thread-15] 2016-05-25 14:10:25,478 repast.simphony.batch.ssh.LocalSession - FATAL [Thread-203] 14:10:25,473 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-INFO  [Thread-15] 2016-05-25 14:10:25,478 repast.simphony.batch.ssh.LocalSession - Current tick (15.0)
-INFO  [Thread-15] 2016-05-25 14:10:25,478 repast.simphony.batch.ssh.LocalSession - java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-INFO  [Thread-15] 2016-05-25 14:10:25,479 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-INFO  [Thread-15] 2016-05-25 14:10:25,479 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-INFO  [Thread-15] 2016-05-25 14:10:25,479 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-INFO  [Thread-15] 2016-05-25 14:10:25,479 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-INFO  [Thread-15] 2016-05-25 14:10:25,479 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
-INFO  [Thread-15] 2016-05-25 14:10:25,479 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-INFO  [Thread-15] 2016-05-25 14:10:25,479 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-INFO  [Thread-15] 2016-05-25 14:10:25,480 repast.simphony.batch.ssh.LocalSession - 	at java.lang.Thread.run(Unknown Source)
-INFO  [Thread-15] 2016-05-25 14:10:25,480 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.reflect.InvocationTargetException
-INFO  [Thread-15] 2016-05-25 14:10:25,480 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect$$FastClassByCGLIB$$3ff3fd53.invoke(<generated>)
-INFO  [Thread-15] 2016-05-25 14:10:25,480 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-INFO  [Thread-15] 2016-05-25 14:10:25,480 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-INFO  [Thread-15] 2016-05-25 14:10:25,480 repast.simphony.batch.ssh.LocalSession - 	... 7 more
-INFO  [Thread-15] 2016-05-25 14:10:25,480 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.NullPointerException
-INFO  [Thread-15] 2016-05-25 14:10:25,480 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect.moveTo(Insect.java:98)
-INFO  [Thread-15] 2016-05-25 14:10:25,481 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect.step(Insect.java:64)
-INFO  [Thread-15] 2016-05-25 14:10:25,481 repast.simphony.batch.ssh.LocalSession - 	... 10 more
-INFO  [pool-3-thread-1] 2016-05-25 14:11:15,110 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464181505298 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 14:12:15,111 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464181505298 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:12:15,112 repast.simphony.batch.ssh.SessionsDriver - Run Time: 7.0679
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:12:15,144 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464181505298
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:12:15,166 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:12:15,334 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0037
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:12:15,334 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 7.1684
-INFO  [AWT-EventQueue-0] 2016-05-25 14:13:14,416 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 14:13:14,639 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+INFO  [SwingWorker-pool-2-thread-6] 2016-05-26 15:34:56,577 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost8864100365992853079.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464273292455 ...
+INFO  [SwingWorker-pool-2-thread-6] 2016-05-26 15:34:56,611 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-6] 2016-05-26 15:34:56,612 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0693
+INFO  [SwingWorker-pool-2-thread-6] 2016-05-26 15:34:56,612 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464273292455\Elizabeth_localhost8864100365992853079.zip
+INFO  [SwingWorker-pool-2-thread-6] 2016-05-26 15:34:57,949 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-8-thread-1] 2016-05-26 15:35:57,967 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464273292455 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-6] 2016-05-26 15:35:57,967 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0226
+INFO  [SwingWorker-pool-2-thread-6] 2016-05-26 15:35:57,967 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464273292455
+INFO  [SwingWorker-pool-2-thread-6] 2016-05-26 15:35:57,967 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-6] 2016-05-26 15:35:57,998 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0005
+INFO  [SwingWorker-pool-2-thread-6] 2016-05-26 15:35:57,998 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.0925
+INFO  [AWT-EventQueue-0] 2016-05-26 15:38:12,563 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-05-26 15:38:12,563 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
 	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
 	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:13:31,208 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost83915340109864234.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182005367 ...
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:13:31,253 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:13:31,254 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0981
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:13:31,254 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182005367\Elizabeth_localhost83915340109864234.zip
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:13:34,077 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [Thread-5] 2016-05-25 14:14:29,944 repast.simphony.batch.ssh.LocalSession - FATAL [Thread-8] 14:14:29,940 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-INFO  [Thread-5] 2016-05-25 14:14:29,944 repast.simphony.batch.ssh.LocalSession - Current tick (15.0)
-INFO  [Thread-5] 2016-05-25 14:14:29,945 repast.simphony.batch.ssh.LocalSession - java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-INFO  [Thread-5] 2016-05-25 14:14:29,945 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-INFO  [Thread-5] 2016-05-25 14:14:29,945 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-INFO  [Thread-5] 2016-05-25 14:14:29,945 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-INFO  [Thread-5] 2016-05-25 14:14:29,945 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-INFO  [Thread-5] 2016-05-25 14:14:29,945 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
-INFO  [Thread-5] 2016-05-25 14:14:29,946 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-INFO  [Thread-5] 2016-05-25 14:14:29,946 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-INFO  [Thread-5] 2016-05-25 14:14:29,946 repast.simphony.batch.ssh.LocalSession - 	at java.lang.Thread.run(Unknown Source)
-INFO  [Thread-5] 2016-05-25 14:14:29,946 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.reflect.InvocationTargetException
-INFO  [Thread-5] 2016-05-25 14:14:29,946 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect$$FastClassByCGLIB$$3ff3fd53.invoke(<generated>)
-INFO  [Thread-5] 2016-05-25 14:14:29,946 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-INFO  [Thread-5] 2016-05-25 14:14:29,946 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-INFO  [Thread-5] 2016-05-25 14:14:29,947 repast.simphony.batch.ssh.LocalSession - 	... 7 more
-INFO  [Thread-5] 2016-05-25 14:14:29,947 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.NullPointerException
-INFO  [Thread-5] 2016-05-25 14:14:29,947 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect.moveTo(Insect.java:98)
-INFO  [Thread-5] 2016-05-25 14:14:29,947 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect.step(Insect.java:64)
-INFO  [Thread-5] 2016-05-25 14:14:29,947 repast.simphony.batch.ssh.LocalSession - 	... 10 more
-INFO  [pool-3-thread-1] 2016-05-25 14:14:34,087 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182005367 for DONE:  no
-INFO  [AWT-EventQueue-0] 2016-05-25 14:16:16,939 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 14:16:17,133 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+INFO  [SwingWorker-pool-2-thread-7] 2016-05-26 15:38:22,858 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost2572897279809769682.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464273498817 ...
+INFO  [SwingWorker-pool-2-thread-7] 2016-05-26 15:38:22,915 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-7] 2016-05-26 15:38:22,916 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0683
+INFO  [SwingWorker-pool-2-thread-7] 2016-05-26 15:38:22,916 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464273498817\Elizabeth_localhost2572897279809769682.zip
+INFO  [SwingWorker-pool-2-thread-7] 2016-05-26 15:38:24,455 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-9-thread-1] 2016-05-26 15:39:24,468 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464273498817 for DONE:  no
+INFO  [pool-9-thread-1] 2016-05-26 15:40:24,468 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464273498817 for DONE:  no
+INFO  [pool-9-thread-1] 2016-05-26 15:41:24,469 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464273498817 for DONE:  no
+INFO  [pool-9-thread-1] 2016-05-26 15:42:24,472 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464273498817 for DONE:  no
+INFO  [pool-9-thread-1] 2016-05-26 15:43:24,482 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464273498817 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-7] 2016-05-26 15:43:24,482 repast.simphony.batch.ssh.SessionsDriver - Run Time: 5.0261
+INFO  [SwingWorker-pool-2-thread-7] 2016-05-26 15:43:24,482 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464273498817
+INFO  [SwingWorker-pool-2-thread-7] 2016-05-26 15:43:24,482 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-7] 2016-05-26 15:43:24,599 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0019
+INFO  [SwingWorker-pool-2-thread-7] 2016-05-26 15:43:24,599 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 5.0971
+INFO  [AWT-EventQueue-0] 2016-05-26 15:58:24,816 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-05-26 15:58:24,816 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
 	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
 	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:16:35,280 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost3198742227455871096.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182188779 ...
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:16:35,340 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:16:35,341 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.1093
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:16:35,342 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182188779\Elizabeth_localhost3198742227455871096.zip
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:16:40,422 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-3-thread-1] 2016-05-25 14:17:40,437 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182188779 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 14:18:40,438 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182188779 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 14:19:40,438 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182188779 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:19:40,439 repast.simphony.batch.ssh.SessionsDriver - Run Time: 3.0849
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:19:40,461 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182188779
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:19:40,483 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:19:40,534 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0016
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:19:40,534 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 3.1965
-INFO  [AWT-EventQueue-0] 2016-05-25 14:21:42,985 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 14:21:42,993 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
-	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:21:58,439 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost4583796502885494215.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182512369 ...
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:21:58,496 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:21:58,496 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.1021
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:21:58,496 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182512369\Elizabeth_localhost4583796502885494215.zip
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:22:01,296 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-4-thread-1] 2016-05-25 14:23:01,302 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182512369 for DONE:  no
-INFO  [pool-4-thread-1] 2016-05-25 14:24:01,303 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182512369 for DONE:  no
-INFO  [pool-4-thread-1] 2016-05-25 14:25:01,304 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182512369 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:25:01,305 repast.simphony.batch.ssh.SessionsDriver - Run Time: 3.0468
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:25:01,311 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182512369
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:25:01,315 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:25:01,356 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0009
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:25:01,356 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 3.1502
-INFO  [AWT-EventQueue-0] 2016-05-25 14:26:15,415 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 14:26:15,424 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
-	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 14:26:30,726 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost7199683366900971492.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182785020 ...
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 14:26:30,772 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 14:26:30,772 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0959
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 14:26:30,772 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182785020\Elizabeth_localhost7199683366900971492.zip
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 14:26:35,836 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-5-thread-1] 2016-05-25 14:27:35,837 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182785020 for DONE:  no
-INFO  [Thread-7] 2016-05-25 14:28:28,150 repast.simphony.batch.ssh.LocalSession - FATAL [Thread-57] 14:28:28,147 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-INFO  [Thread-7] 2016-05-25 14:28:28,150 repast.simphony.batch.ssh.LocalSession - Current tick (36.0)
-INFO  [Thread-7] 2016-05-25 14:28:28,151 repast.simphony.batch.ssh.LocalSession - java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-INFO  [Thread-7] 2016-05-25 14:28:28,151 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-INFO  [Thread-7] 2016-05-25 14:28:28,151 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-INFO  [Thread-7] 2016-05-25 14:28:28,151 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-INFO  [Thread-7] 2016-05-25 14:28:28,151 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-INFO  [Thread-7] 2016-05-25 14:28:28,151 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
-INFO  [Thread-7] 2016-05-25 14:28:28,151 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-INFO  [Thread-7] 2016-05-25 14:28:28,151 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-INFO  [Thread-7] 2016-05-25 14:28:28,152 repast.simphony.batch.ssh.LocalSession - 	at java.lang.Thread.run(Unknown Source)
-INFO  [Thread-7] 2016-05-25 14:28:28,152 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.reflect.InvocationTargetException
-INFO  [Thread-7] 2016-05-25 14:28:28,152 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect$$FastClassByCGLIB$$3ff3fd53.invoke(<generated>)
-INFO  [Thread-7] 2016-05-25 14:28:28,152 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-INFO  [Thread-7] 2016-05-25 14:28:28,152 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-INFO  [Thread-7] 2016-05-25 14:28:28,152 repast.simphony.batch.ssh.LocalSession - 	... 7 more
-INFO  [Thread-7] 2016-05-25 14:28:28,152 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.NullPointerException
-INFO  [Thread-7] 2016-05-25 14:28:28,152 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect.moveTo(Insect.java:98)
-INFO  [Thread-7] 2016-05-25 14:28:28,153 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect.step(Insect.java:64)
-INFO  [Thread-7] 2016-05-25 14:28:28,153 repast.simphony.batch.ssh.LocalSession - 	... 10 more
-INFO  [pool-5-thread-1] 2016-05-25 14:28:35,838 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182785020 for DONE:  no
-INFO  [Thread-7] 2016-05-25 14:29:10,717 repast.simphony.batch.ssh.LocalSession - FATAL [Thread-90] 14:29:10,714 repast.simphony.batch.BatchScheduleRunner - BatchSchedule.execute: error when running the schedule
-INFO  [Thread-7] 2016-05-25 14:29:10,718 repast.simphony.batch.ssh.LocalSession - Current tick (43.0)
-INFO  [Thread-7] 2016-05-25 14:29:10,718 repast.simphony.batch.ssh.LocalSession - java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-INFO  [Thread-7] 2016-05-25 14:29:10,718 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
-INFO  [Thread-7] 2016-05-25 14:29:10,718 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
-INFO  [Thread-7] 2016-05-25 14:29:10,718 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
-INFO  [Thread-7] 2016-05-25 14:29:10,718 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
-INFO  [Thread-7] 2016-05-25 14:29:10,718 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
-INFO  [Thread-7] 2016-05-25 14:29:10,719 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
-INFO  [Thread-7] 2016-05-25 14:29:10,719 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
-INFO  [Thread-7] 2016-05-25 14:29:10,719 repast.simphony.batch.ssh.LocalSession - 	at java.lang.Thread.run(Unknown Source)
-INFO  [Thread-7] 2016-05-25 14:29:10,719 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.reflect.InvocationTargetException
-INFO  [Thread-7] 2016-05-25 14:29:10,719 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect$$FastClassByCGLIB$$3ff3fd53.invoke(<generated>)
-INFO  [Thread-7] 2016-05-25 14:29:10,719 repast.simphony.batch.ssh.LocalSession - 	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
-INFO  [Thread-7] 2016-05-25 14:29:10,719 repast.simphony.batch.ssh.LocalSession - 	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
-INFO  [Thread-7] 2016-05-25 14:29:10,720 repast.simphony.batch.ssh.LocalSession - 	... 7 more
-INFO  [Thread-7] 2016-05-25 14:29:10,720 repast.simphony.batch.ssh.LocalSession - Caused by: java.lang.NullPointerException
-INFO  [Thread-7] 2016-05-25 14:29:10,720 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect.moveTo(Insect.java:98)
-INFO  [Thread-7] 2016-05-25 14:29:10,720 repast.simphony.batch.ssh.LocalSession - 	at plantsInsects.Insect.step(Insect.java:64)
-INFO  [Thread-7] 2016-05-25 14:29:10,720 repast.simphony.batch.ssh.LocalSession - 	... 10 more
-INFO  [pool-5-thread-1] 2016-05-25 14:29:35,839 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182785020 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 14:29:35,840 repast.simphony.batch.ssh.SessionsDriver - Run Time: 3.0845
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 14:29:35,848 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464182785020
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 14:29:35,853 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 14:29:35,928 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0015
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 14:29:35,929 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 3.1834
-INFO  [AWT-EventQueue-0] 2016-05-25 14:41:34,155 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 14:41:34,330 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
-	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:41:50,508 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost9055490152643431452.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464183704574 ...
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:41:50,773 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:41:50,774 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.1033
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:41:50,774 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464183704574\Elizabeth_localhost9055490152643431452.zip
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:41:54,170 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-3-thread-1] 2016-05-25 14:42:54,180 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464183704574 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 14:43:54,181 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464183704574 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 14:44:54,181 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464183704574 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 14:45:54,182 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464183704574 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 14:46:54,184 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464183704574 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:46:54,184 repast.simphony.batch.ssh.SessionsDriver - Run Time: 5.0568
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:46:54,215 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464183704574
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:46:54,232 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:46:54,315 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0022
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:46:54,316 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 5.1638
-INFO  [AWT-EventQueue-0] 2016-05-25 14:48:21,610 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 14:48:21,758 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
-	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:48:38,375 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost2276900182499673765.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184112455 ...
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:48:38,420 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:48:38,421 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0994
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:48:38,421 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184112455\Elizabeth_localhost2276900182499673765.zip
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:48:41,815 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-3-thread-1] 2016-05-25 14:49:41,824 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184112455 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 14:50:41,825 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184112455 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 14:51:41,826 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184112455 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:51:41,827 repast.simphony.batch.ssh.SessionsDriver - Run Time: 3.0568
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:51:41,849 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184112455
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:51:41,863 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:51:41,988 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0027
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 14:51:41,988 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 3.1595
-INFO  [AWT-EventQueue-0] 2016-05-25 14:52:27,599 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 14:52:27,608 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
-	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:52:42,308 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost7430049433168723969.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184356476 ...
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:52:42,692 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:52:42,692 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.1036
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:52:42,692 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184356476\Elizabeth_localhost7430049433168723969.zip
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:52:45,285 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-4-thread-1] 2016-05-25 14:53:45,287 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184356476 for DONE:  no
-INFO  [pool-4-thread-1] 2016-05-25 14:54:45,288 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184356476 for DONE:  no
-INFO  [pool-4-thread-1] 2016-05-25 14:55:45,288 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184356476 for DONE:  no
-INFO  [pool-4-thread-1] 2016-05-25 14:56:45,289 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184356476 for DONE:  no
-INFO  [pool-4-thread-1] 2016-05-25 14:57:45,290 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184356476 for DONE:  no
-INFO  [pool-4-thread-1] 2016-05-25 14:58:45,291 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184356476 for DONE:  no
-INFO  [pool-4-thread-1] 2016-05-25 14:59:45,291 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184356476 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:59:45,292 repast.simphony.batch.ssh.SessionsDriver - Run Time: 7.0433
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:59:45,301 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184356476
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:59:45,307 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:59:45,441 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0025
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 14:59:45,442 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 7.1504
-INFO  [AWT-EventQueue-0] 2016-05-25 15:00:43,593 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 15:00:43,600 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
-	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 15:00:57,487 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost2048076790156843895.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184851746 ...
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 15:00:57,535 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 15:00:57,535 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0965
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 15:00:57,535 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184851746\Elizabeth_localhost2048076790156843895.zip
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 15:00:59,591 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-5-thread-1] 2016-05-25 15:01:59,592 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184851746 for DONE:  no
-INFO  [pool-5-thread-1] 2016-05-25 15:02:59,594 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184851746 for DONE:  no
-INFO  [pool-5-thread-1] 2016-05-25 15:03:59,595 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184851746 for DONE:  no
-INFO  [pool-5-thread-1] 2016-05-25 15:04:59,595 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184851746 for DONE:  no
-INFO  [pool-5-thread-1] 2016-05-25 15:05:59,596 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184851746 for DONE:  no
-INFO  [pool-5-thread-1] 2016-05-25 15:06:59,597 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184851746 for DONE:  no
-INFO  [pool-5-thread-1] 2016-05-25 15:07:59,598 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184851746 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 15:07:59,599 repast.simphony.batch.ssh.SessionsDriver - Run Time: 7.0344
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 15:07:59,605 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464184851746
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 15:07:59,612 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 15:07:59,760 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0027
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 15:07:59,761 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 7.1346
-INFO  [AWT-EventQueue-0] 2016-05-25 15:44:46,665 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 15:44:46,674 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
-	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 15:45:01,570 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost5064146538227869091.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464187495792 ...
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 15:45:01,624 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 15:45:01,624 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0972
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 15:45:01,625 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464187495792\Elizabeth_localhost5064146538227869091.zip
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 15:45:03,469 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-6-thread-1] 2016-05-25 15:46:03,471 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464187495792 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 15:47:03,474 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464187495792 for DONE:  no
-INFO  [pool-6-thread-1] 2016-05-25 15:48:03,487 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464187495792 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 15:48:03,488 repast.simphony.batch.ssh.SessionsDriver - Run Time: 3.0310
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 15:48:03,493 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464187495792
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 15:48:03,501 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 15:48:03,574 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0014
-INFO  [SwingWorker-pool-2-thread-4] 2016-05-25 15:48:03,574 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 3.1301
-INFO  [AWT-EventQueue-0] 2016-05-25 16:24:26,680 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 16:24:26,688 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
-	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-5] 2016-05-25 16:24:39,976 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost4848062202049626976.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464189874163 ...
-INFO  [SwingWorker-pool-2-thread-5] 2016-05-25 16:24:40,031 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-5] 2016-05-25 16:24:40,032 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0978
-INFO  [SwingWorker-pool-2-thread-5] 2016-05-25 16:24:40,032 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464189874163\Elizabeth_localhost4848062202049626976.zip
-INFO  [SwingWorker-pool-2-thread-5] 2016-05-25 16:24:42,413 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-7-thread-1] 2016-05-25 16:25:42,415 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464189874163 for DONE:  no
-INFO  [pool-7-thread-1] 2016-05-25 16:26:42,416 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464189874163 for DONE:  no
-INFO  [pool-7-thread-1] 2016-05-25 16:27:42,417 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464189874163 for DONE:  no
-INFO  [pool-7-thread-1] 2016-05-25 16:28:42,418 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464189874163 for DONE:  no
-INFO  [pool-7-thread-1] 2016-05-25 16:29:42,419 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464189874163 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-5] 2016-05-25 16:29:42,421 repast.simphony.batch.ssh.SessionsDriver - Run Time: 5.0398
-INFO  [SwingWorker-pool-2-thread-5] 2016-05-25 16:29:42,428 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464189874163
-INFO  [SwingWorker-pool-2-thread-5] 2016-05-25 16:29:42,434 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-5] 2016-05-25 16:29:42,596 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0029
-INFO  [SwingWorker-pool-2-thread-5] 2016-05-25 16:29:42,596 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 5.1413
-INFO  [AWT-EventQueue-0] 2016-05-25 16:37:33,576 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 16:37:33,585 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
-	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-6] 2016-05-25 16:37:47,034 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost4346604028489338996.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 ...
-INFO  [SwingWorker-pool-2-thread-6] 2016-05-25 16:37:47,080 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-6] 2016-05-25 16:37:47,081 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0942
-INFO  [SwingWorker-pool-2-thread-6] 2016-05-25 16:37:47,081 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430\Elizabeth_localhost4346604028489338996.zip
-INFO  [SwingWorker-pool-2-thread-6] 2016-05-25 16:37:48,937 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-8-thread-1] 2016-05-25 16:38:48,938 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [pool-8-thread-1] 2016-05-25 16:39:48,939 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [pool-8-thread-1] 2016-05-25 16:40:48,941 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [pool-8-thread-1] 2016-05-25 16:41:48,941 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [pool-8-thread-1] 2016-05-25 16:42:48,943 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [pool-8-thread-1] 2016-05-25 16:43:48,943 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [pool-8-thread-1] 2016-05-25 16:44:48,945 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [pool-8-thread-1] 2016-05-25 16:45:48,946 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [pool-8-thread-1] 2016-05-25 16:46:48,947 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [pool-8-thread-1] 2016-05-25 16:47:48,948 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [pool-8-thread-1] 2016-05-25 16:48:48,949 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [pool-8-thread-1] 2016-05-25 16:49:48,950 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [pool-8-thread-1] 2016-05-25 16:50:48,951 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [pool-8-thread-1] 2016-05-25 16:51:48,952 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [pool-8-thread-1] 2016-05-25 16:52:48,953 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464190661430 for DONE:  no
-INFO  [AWT-EventQueue-0] 2016-05-25 17:00:25,690 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 17:00:25,891 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
-	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 17:00:45,887 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost5602210269910853780.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464192038575 ...
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 17:00:45,938 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 17:00:45,940 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.1227
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 17:00:45,940 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464192038575\Elizabeth_localhost5602210269910853780.zip
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 17:00:48,257 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-3-thread-1] 2016-05-25 17:01:48,268 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464192038575 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 17:02:48,269 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464192038575 for DONE:  no
-INFO  [pool-3-thread-1] 2016-05-25 17:03:48,270 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464192038575 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 17:03:48,271 repast.simphony.batch.ssh.SessionsDriver - Run Time: 3.0388
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 17:03:48,306 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464192038575
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 17:03:48,325 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 17:03:48,419 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0025
-INFO  [SwingWorker-pool-2-thread-1] 2016-05-25 17:03:48,419 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 3.1650
-INFO  [AWT-EventQueue-0] 2016-05-25 17:07:03,523 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 17:07:03,533 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
-	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 17:07:21,009 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost604658991566246495.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464192434309 ...
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 17:07:21,062 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 17:07:21,062 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.1125
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 17:07:21,062 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464192434309\Elizabeth_localhost604658991566246495.zip
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 17:07:23,059 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-4-thread-1] 2016-05-25 17:08:23,061 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464192434309 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 17:08:23,062 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0333
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 17:08:23,070 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464192434309
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 17:08:23,077 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 17:08:23,103 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0007
-INFO  [SwingWorker-pool-2-thread-2] 2016-05-25 17:08:23,104 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.1467
-INFO  [AWT-EventQueue-0] 2016-05-25 17:18:17,179 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
-INFO  [AWT-EventQueue-0] 2016-05-25 17:18:17,190 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
-	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
-	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 17:18:36,484 repast.simphony.batch.ssh.LocalSession - 
-	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost954216571859364359.zip to 
-C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464193108561 ...
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 17:18:36,582 repast.simphony.batch.ssh.LocalSession - Copying Finished.
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 17:18:36,583 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.1337
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 17:18:36,583 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464193108561\Elizabeth_localhost954216571859364359.zip
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 17:18:38,091 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
-INFO  [pool-5-thread-1] 2016-05-25 17:19:38,092 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464193108561 for DONE:  no
-INFO  [pool-5-thread-1] 2016-05-25 17:20:38,093 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464193108561 for DONE:  no
-INFO  [pool-5-thread-1] 2016-05-25 17:21:38,094 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464193108561 for DONE:  no
-INFO  [pool-5-thread-1] 2016-05-25 17:22:38,094 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464193108561 for DONE:  yes
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 17:22:38,095 repast.simphony.batch.ssh.SessionsDriver - Run Time: 4.0252
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 17:22:38,104 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464193108561
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 17:22:38,111 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 17:22:38,193 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0016
-INFO  [SwingWorker-pool-2-thread-3] 2016-05-25 17:22:38,193 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 4.1613
+INFO  [SwingWorker-pool-2-thread-8] 2016-05-26 15:58:35,409 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost5565117355273259161.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464274711223 ...
+INFO  [SwingWorker-pool-2-thread-8] 2016-05-26 15:58:35,739 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-8] 2016-05-26 15:58:35,739 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0753
+INFO  [SwingWorker-pool-2-thread-8] 2016-05-26 15:58:35,739 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464274711223\Elizabeth_localhost5565117355273259161.zip
+INFO  [SwingWorker-pool-2-thread-8] 2016-05-26 15:58:36,667 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-10-thread-1] 2016-05-26 15:59:36,667 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464274711223 for DONE:  no
+INFO  [pool-10-thread-1] 2016-05-26 16:00:36,668 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464274711223 for DONE:  no
+INFO  [pool-10-thread-1] 2016-05-26 16:01:36,669 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464274711223 for DONE:  no
+INFO  [pool-10-thread-1] 2016-05-26 16:02:36,674 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464274711223 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-8] 2016-05-26 16:02:36,674 repast.simphony.batch.ssh.SessionsDriver - Run Time: 4.0156
+INFO  [SwingWorker-pool-2-thread-8] 2016-05-26 16:02:36,674 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1464274711223
+INFO  [SwingWorker-pool-2-thread-8] 2016-05-26 16:02:36,674 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-8] 2016-05-26 16:02:36,759 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0014
+INFO  [SwingWorker-pool-2-thread-8] 2016-05-26 16:02:36,759 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 4.0927
