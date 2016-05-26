@@ -85,11 +85,11 @@ public class ParameterSerializationHelper {
 			creator.addParameter(paramsPrefix + "dmg_threshold", Integer.class,
 					pp.getDamageThreshold(), false);
 			creator.addParameter(paramsPrefix + "flightChance",Double.class,
-					pp.getFlightChance(), false); //eld
+					pp.getFlightChance(), false); 
 			creator.addParameter(paramsPrefix + "migrationRate", Double.class, 
-					pp.getMigrationRate(), false); //eld 
+					pp.getMigrationRate(), false);  
 			creator.addParameter(paramsPrefix + "repellentCheck", Boolean.class,
-					pp.getRepellent(), false); //eld
+					pp.getRepellent(), false); 
 			params = creator.createParameters();
 		}
 
@@ -123,13 +123,13 @@ public class ParameterSerializationHelper {
 		double perc = (Double) params.getValue(paramsPrefix + "percentage");
 		int threshold = (Integer) params.getValue(paramsPrefix
 				+ "dmg_threshold");
-		double fChance = (Double) params.getValue(paramsPrefix + "flightChance"); //eld
+		double fChance = (Double) params.getValue(paramsPrefix + "flightChance");
 		
-		double mRate = (Double) params.getValue(paramsPrefix + "migrationRate"); //eld 
+		double mRate = (Double) params.getValue(paramsPrefix + "migrationRate");
 		
-		boolean rPlants = (Boolean) params.getValue(paramsPrefix + "repellentCheck"); //eld unsure about getValue 
+		boolean rPlants = (Boolean) params.getValue(paramsPrefix + "repellentCheck"); 
 
-		return new PlantParams(id, type, perc, threshold, col, fChance, mRate, rPlants ); //eld
+		return new PlantParams(id, type, perc, threshold, col, fChance, mRate, rPlants ); 
 	}
 
 	public void saveInsect(InsectParams ip) {
@@ -144,27 +144,14 @@ public class ParameterSerializationHelper {
 		String colStr = String.format("#%02x%02x%02x", ip.getDisplayCol()
 				.getRed(), ip.getDisplayCol().getGreen(), ip.getDisplayCol()
 				.getBlue());
-		//String plantMapString = "";
-		/*for (Map.Entry<String,Double> entry : ip.getFlightPref().entrySet()){
-			plantMapString += entry.getKey() + "-" + entry.getValue() + ";";
-		} */ // ELD 
-		/*for (Map.Entry<String, Integer> entry : ip.getEggsPerPlant().entrySet()) {
-			plantMapString += entry.getKey() + "-" + entry.getValue() + ";";
-		}*/ ///ELD
-		//plantMapString = plantMapString.substring(0,
-		//		plantMapString.length() - 1);
 
 		if (schema.contains(paramsPrefix + "id")) {
 			params.setValue(paramsPrefix + "colour", colStr);
 			params.setValue(paramsPrefix + "initial_count",
 					ip.getInitialCount());
-		//	params.setValue(paramsPrefix + "max_eggs", ip.getMaxEggs()); // ELD
-		//	params.setValue(paramsPrefix + "tradeoff", ip.getTradeOff()); //ELD
-		//	params.setValue(paramsPrefix + "tolerance", ip.getTolerance());// ELD
 			params.setValue(paramsPrefix + "mortality", ip.getMortalityRate());
 			params.setValue(paramsPrefix + "max_flight_len",
 					ip.getMaxFlightLength());
-		//	params.setValue(paramsPrefix + "hatch_time", ip.getEggHatchTime()); //ELD
 			params.setValue(paramsPrefix + "sensory_mode", ip.getSensoryMode()
 					.toString());
 			params.setValue(paramsPrefix + "initial_dist", ip.getInitialDist()
@@ -172,26 +159,17 @@ public class ParameterSerializationHelper {
 			params.setValue(paramsPrefix + "memory_size", ip.getMemorySize());
 			params.setValue(paramsPrefix + "mig_out", ip.getMigrationOutRate());
 			params.setValue(paramsPrefix + "mig_in", ip.getMigrationInRate());
-		//	params.setValue(paramsPrefix + "eggs_on_plants", plantMapString); //ELD 
-			//params.setValue(paramsPrefix + "flight_pref", plantMapString); // ELD
 
 			ParameterSchema details = schema
 					.getDetails(paramsPrefix + "colour");
 			details.setDefaultValue(colStr);
 			details = schema.getDetails(paramsPrefix + "initial_count");
 			details.setDefaultValue(ip.getInitialCount());
-		//	details = schema.getDetails(paramsPrefix + "max_eggs");
-		//	details.setDefaultValue(ip.getMaxEggs());// ELD
-		//	details = schema.getDetails(paramsPrefix + "tradeoff"); //ELD
-		//	details.setDefaultValue(ip.getTradeOff()); //ELD
-		//	details = schema.getDetails(paramsPrefix + "tolerance");
-		//	details.setDefaultValue(ip.getTolerance()); //ELD
 			details = schema.getDetails(paramsPrefix + "mortality");
 			details.setDefaultValue(ip.getMortalityRate());
 			details = schema.getDetails(paramsPrefix + "max_flight_len");
 			details.setDefaultValue(ip.getMaxFlightLength());
 			details = schema.getDetails(paramsPrefix + "hatch_time");
-		//	details.setDefaultValue(ip.getEggHatchTime()); //ELD
 			details = schema.getDetails(paramsPrefix + "sensory_mode");
 			details.setDefaultValue(ip.getSensoryMode().toString());
 			details = schema.getDetails(paramsPrefix + "initial_dist");
@@ -202,10 +180,6 @@ public class ParameterSerializationHelper {
 			details.setDefaultValue(ip.getMigrationOutRate());
 			details = schema.getDetails(paramsPrefix + "mig_in");
 			details.setDefaultValue(ip.getMigrationInRate());
-			/*details = schema.getDetails(paramsPrefix + "eggs_on_plants");
-			details.setDefaultValue(plantMapString);*/ //ELD
-		//	details = schema.getDetails(paramsPrefix + "flight_pref");
-		//	details.setDefaultValue(plantMapString); //ELD
 		} else {
 			ParametersCreator creator = new ParametersCreator();
 			creator.addParameters(params);
@@ -215,18 +189,11 @@ public class ParameterSerializationHelper {
 					false);
 			creator.addParameter(paramsPrefix + "initial_count", Integer.class,
 					ip.getInitialCount(), false);
-			/*creator.addParameter(paramsPrefix + "max_eggs", Integer.class,
-					ip.getMaxEggs(), false);*/ //eld
-			/*creator.addParameter(paramsPrefix + "tradeoff", Double.class,
-					ip.getTradeOff(), false);
-			creator.addParameter(paramsPrefix + "tolerance", Integer.class,
-					ip.getTolerance(), false);*/ //ELD 
 			creator.addParameter(paramsPrefix + "mortality", Double.class,
 					ip.getMortalityRate(), false);
 			creator.addParameter(paramsPrefix + "max_flight_len",
 					Integer.class, ip.getMaxFlightLength(), false);
-			/*creator.addParameter(paramsPrefix + "hatch_time", Integer.class,
-					ip.getEggHatchTime(), false);*/ //ELD
+	
 			creator.addParameter(paramsPrefix + "sensory_mode", String.class,
 					ip.getSensoryMode().toString(), false);
 			creator.addParameter(paramsPrefix + "initial_dist", String.class,
@@ -237,10 +204,6 @@ public class ParameterSerializationHelper {
 					ip.getMigrationOutRate(), false);
 			creator.addParameter(paramsPrefix + "mig_in", Double.class,
 					ip.getMigrationInRate(), false);
-		/*	creator.addParameter(paramsPrefix + "eggs_on_plants", String.class,
-					plantMapString, false);*/ //ELD
-			//creator.addParameter(paramsPrefix + "flight_pref", String.class,
-			//		plantMapString, false); // ELD
 			params = creator.createParameters();
 		}
 
@@ -263,18 +226,13 @@ public class ParameterSerializationHelper {
 			return null;
 		}
 
-		//String id1 = (String) params.getValue(paramsPrefix + "id"); //does this need to be commented out?
 		Color col = Color.decode((String) params.getValue(paramsPrefix
 				+ "colour"));
 		int initialCount = (Integer) params.getValue(paramsPrefix
 				+ "initial_count");
-		//int maxEggs = (Integer) params.getValue(paramsPrefix + "max_eggs"); //ELD
-		//double tradeoff = (Double) params.getValue(paramsPrefix + "tradeoff"); //ELD
-		//int tolerance = (Integer) params.getValue(paramsPrefix + "tolerance"); //ELD
 		double mortality = (Double) params.getValue(paramsPrefix + "mortality");
 		int maxFlightLen = (Integer) params.getValue(paramsPrefix
 				+ "max_flight_len");
-		//int hatchTime = (Integer) params.getValue(paramsPrefix + "hatch_time"); //ELD
 		InsectSensoryMode sensoryMode;
 		try {
 			sensoryMode = InsectSensoryMode.valueOf((String) params
@@ -292,27 +250,8 @@ public class ParameterSerializationHelper {
 		int memSize = (Integer) params.getValue(paramsPrefix + "memory_size");
 		double migOut = (Double) params.getValue(paramsPrefix + "mig_out");
 		double migIn = (Double) params.getValue(paramsPrefix + "mig_in");
-		//String plantMapString = (String) params.getValue(paramsPrefix
-		//		+ "eggs_on_plants"); //ELD 
 
-		/*
-		HashMap<String, Double> plantMap = new HashMap<String, Double>(); //ELD
-		for (String pair : plantMapString.split(";")) {
-			String[] parts = pair.split("-");
-			if (parts.length > 1) {
-				plantMap.put(parts[0], Double.parseDouble(parts[1])); // ELD 
-			}
-		}
-        */ //afc
-
-		//String flightPrefString = (String) params.getValue(paramsPrefix
-		//		+ "flight_pref");
-
-		
-		/*InsectParams result = new InsectParams(id, initialCount, maxEggs,
-				tradeoff, tolerance, mortality, maxFlightLen, hatchTime,
-				sensoryMode, initialDist, memSize, migOut, migIn, plantMap, col); //ELD
-*/		InsectParams result = new InsectParams(
+		InsectParams result = new InsectParams(
 		id, 
 		initialCount,
 		sensoryMode, 

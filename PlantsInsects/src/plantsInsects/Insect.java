@@ -22,8 +22,9 @@ public class Insect {
 	private int age;
 	private String lastPlantType;
 	private boolean hopped;
-
-
+	private boolean moved;
+	private boolean dead;
+	private double emigrationProb;
 
 	public Insect(InsectParams params, Context<Object> context) { 
 		grid = (Grid<Object>) context.getProjection("grid");
@@ -32,54 +33,116 @@ public class Insect {
 		age = 0;
 		//lastPlantType = "";
 		hopped = false;
+		moved = false;
+		dead = false;
+		emigrationProb = speciesParams.getMigrationOutRate();
 	}
 
 	@ScheduledMethod(start = 1, interval = 1, priority = 2)
 	public void step() {
 		
 		Context<Object> context = ContextUtils.getContext(this);
-		
 		double chanceOfMort = 1 - (age * speciesParams.getMortalityRate());	
-		if(RandomHelper.nextDoubleFromTo(0, 1)> chanceOfMort) { // daily mortality is age dependent
-			context.remove(this);
-			speciesParams.decrementCount();
-			checkPopSize();
+		if(RandomHelper.nextDoubleFromTo(0, 1) > chanceOfMort) { // daily mortality is age dependent
+			killInsect();
 			return;
 		}
-		
 		lastPlantType = getLastPlant();
 		GridPoint thisPoint = grid.getLocation(this);
 		int thisX = thisPoint.getX();
 		int thisY = thisPoint.getY();
 		Plant thisPlant = getPlantAt(thisX,thisY);
-
-	    Plant plant = getNextPlant();
-		GridPoint newPt = grid.getLocation(plant);
-		grid.moveTo(this, newPt.getX(), newPt.getY());
-		if (thisPlant != plant){ // if the insect has moved from a plant that is different from the one it is on now the movement is recorded
-			}
-	
-		plant.updateMigrationRate();// update the migration rate to the rate specific to the plant
-		
-		visitedPlants.add(plant); //add plant to memory
-		if (visitedPlants.size() > speciesParams.getMemorySize()) // sliding window memory
-			visitedPlants.remove(0);
-		
-		int repellentPlantsInMemory = 0;// If visitedPLants contains > 5 plants with migOutRate = 1 (a repellent plant) then remove insect from model
-		for (Plant visited :visitedPlants) {
-			if (visited.getSpeciesParams().getFlightChance() > 0.99) {
-			 repellentPlantsInMemory++ ;	
-			}
-		}
-		
-		if (repellentPlantsInMemory == 5) {
-			context.remove(this);
-			speciesParams.decrementCount();
-			checkPopSize();
+		if (moved == true){
+		emigration(thisPlant);} // emigration only happens if the insect makes a flight
+		repellentEncounters(thisPlant); //emigration from encountering repellent plants can happen regardless
+		 //killing insects that have visited normal or deterrent plants and have emigrated
+		if (dead == true) {
+			killInsect();
 			return;
 		}
+		Plant plant = getNextPlant();
+		Plant moveToPlant = moveTo(plant);
+		GridPoint newPt = grid.getLocation(moveToPlant);
+		grid.moveTo(this, newPt.getX(), newPt.getY());
+		if (thisPlant != moveToPlant && hopped != true){
+			addMovement();// if the insect has moved from a plant that is different from the one it is on now the movement is recorded
+			moved = true;
+		}
+		if (dead == true) {// add the plant to memory then do the repellentEncounters
+			killInsect();
+			return;
+		}
+		plant.updateDamage();// update the damage to the plants (damage threshold - 1 for each insect present on it)
+		plant.updateMigrationRate();
+		insectUpdateEmigrationRate();
+		age++;// increase age of insects by 1
+	}
+	
+	public void checkPopSize(){
+		int totalPopulation =  speciesParams.getCount();
+		if (totalPopulation == 0) {
+			RunEnvironment.getInstance().endRun(); // end the simulation if all insects are dead
+		}
+	}
+	
+	public void checkTickCount(){
+		double tickCount = RunEnvironment.getInstance().getCurrentSchedule().getTickCount();
+		if (tickCount >= 50.00 ) {
+			RunEnvironment.getInstance().endRun();
+			}
+		}
+	
+	private Plant moveTo(Plant p) {
+		dead = false;
+		Plant chosenPlant = null;
+		boolean rep = p.getSpeciesParams().getRepellent();
+		double fprob = p.getSpeciesParams().getFlightChance();
 		
-		double migOutChance = getMigOutChance(); 
+		if (!visitedPlants.contains(p)){ //if the plant isn't already in the memory
+			visitedPlants.add(p); //add plant to memory
+		}
+		if (visitedPlants.size() > speciesParams.getMemorySize()) {// sliding window memory
+			visitedPlants.remove(0);
+		}
+		if (fprob > 0.99){ 
+			if (rep == true){
+				boolean repCheck = true;
+				while (repCheck == true){
+					Plant potentialP = getNextPlant();
+					insectUpdateEmigrationRate();
+					emigration(potentialP);
+					repellentEncounters(potentialP);
+					GridPoint newPt = grid.getLocation(potentialP);
+					grid.moveTo(this, newPt.getX(), newPt.getY());
+					repCheck = potentialP.getSpeciesParams().getRepellent();
+					if (repCheck == false || dead == true){
+						chosenPlant = potentialP;
+						break;
+					}
+				}
+			}
+			else { 
+				chosenPlant = p;
+			}
+		}
+		else {
+			chosenPlant = p; //normal plant
+		}  
+		return chosenPlant; 
+	} 
+
+	public void insectUpdateEmigrationRate(){
+		GridPoint insPoint = grid.getLocation(this);
+		//System.out.println("dead= " + dead);
+	   // System.out.println("insPoint= " + insPoint);
+		int x = insPoint.getX();
+		int y = insPoint.getY();
+		Plant currentPlant = getPlantAt(x,y);
+		emigrationProb = currentPlant.getSpeciesParams().getMigrationRate();
+	}
+	
+	public void emigration(Plant p){
+		GridPoint newPt= grid.getLocation(p);
 		boolean isOnBorder = false; // find out if the insect is on the border of the plot
 		int edgeY = grid.getDimensions().getHeight() - 1;
 		int edgeX = grid.getDimensions().getWidth() - 1;
@@ -87,27 +150,33 @@ public class Insect {
 				|| newPt.getY() == edgeY) {
 			isOnBorder = true;
 		}
+		if (moved = true){ // this migration chance should only be applied if the insect has made a flight, does not apply if the insect has not moved or has 'hopped'
+			 if ((RandomHelper.nextDoubleFromTo(0, 1) < emigrationProb)
+				|| (isOnBorder && RandomHelper.nextDoubleFromTo(0,1) < 0.05)) { // border emigration is fixed at 0.05 
+				dead = true;
+				return;
+				}
+		}
+	}
 
-		// migration out is dependent on migOutChance or the proximity to border
-		if ((thisPlant != plant) && (hopped != true)){ // this migration chance should only be applied if the insect has made a flight, does not apply if the insect has not moved or has 'hopped'
-		 if ((RandomHelper.nextDoubleFromTo(0, 1) < migOutChance)
-			|| (isOnBorder && RandomHelper.nextDoubleFromTo(0,1) < 0.05)) { 
-			context.remove(this);
-			speciesParams.decrementCount();
-			checkPopSize();
-			return;
-		 }
+	public void killInsect(){
+		Context<Object> context = ContextUtils.getContext(this);
+		context.remove(this);
+		speciesParams.decrementCount();
+		checkPopSize();
+		}
+	
+	public void repellentEncounters(Plant p){
+		int repellentPlantsInMemory = 0;
+		for (Plant visited :visitedPlants) {
+			if (visited.getSpeciesParams().getFlightChance() > 0.99) {
+			 repellentPlantsInMemory++ ;
+			}
 		}
 		
-	plant.updateDamage();// update the damage to the plants (damage threshold - 1 for each insect present on it)
-	 age++;// increase age of insects by 1 
-	}
-	
-	
-	public void checkPopSize(){
-		int totalPopulation =  speciesParams.getCount();
-		if (totalPopulation == 0) {
-			RunEnvironment.getInstance().endRun(); // end the simulation if all insects are dead
+		if (repellentPlantsInMemory == 5) {
+			dead = true;
+			return;
 		}
 	}
 	
@@ -122,12 +191,15 @@ public class Insect {
 	
 	private Plant getNextPlant() {
         hopped = false; 
+        moved = false;
 		GridPoint insPoint = grid.getLocation(this);
 		int x = insPoint.getX();
 		int y = insPoint.getY();
 		Plant currentPlant = getPlantAt(x,y);
 		Plant plant = null;		
-		if (RandomHelper.nextDoubleFromTo(0,1) < currentPlant.getSpeciesParams().getFlightChance()){ // the probability of an insect performing a foraging flight is dependent on the flight probability of the plant
+		double fChance = currentPlant.getSpeciesParams().getFlightChance();
+		if (RandomHelper.nextDoubleFromTo(0,1) < fChance){ // the probability of an insect performing a foraging flight is dependent on the flight probability of the plant
+			hopped = false;
 			switch (speciesParams.getSensoryMode()) {
 			case Visual:
 				plant = getNextPlantVisual(insPoint);
@@ -145,17 +217,18 @@ public class Insect {
 		}
 		else {
 			if (RandomHelper.nextDoubleFromTo(0,1) <= 0.5){ // if the insect doesn't fly it has a 50/50 chance of staying where it is or hopping to an adjacent plant
-			return currentPlant;
+				hopped = false;
+				return currentPlant;
+				
 			}
 			else {
 		    plant = getNeighbourPlant();
 		    hopped = true; 
 		    return plant;
+		    
 			}
 		}
 	}
-
-
 	
 	private Plant getNeighbourPlant(){
 			GridCellNgh<Plant> nghCreator = new GridCellNgh<Plant>(grid,
@@ -180,8 +253,6 @@ public class Insect {
 			return result; 
 		}
 		
-	
-
 	private Plant getNextPlantVisual(GridPoint gi) {
 		double lowestFlightChance = 100; // far higher than any
 		double distance = grid.getDimensions().getWidth(); //further than any plant
@@ -219,18 +290,17 @@ public class Insect {
 				result = current;
 				break;
 			}
+			else {
+			result = current; 
+			break;
+			}
 		}
-		/*if (result == null){
-			GridCell<Plant> cell = gridCells.get(gridCells.size() - 1);
-			Plant current = cell.items().iterator().next();
-			result = current;
-		}*/
 		return result;
 	}
 
 	private Plant getNextPlantOlfactory() {
 		int flightLength = speciesParams.getMaxFlightLength(); //Flight length (and therefore search radius) is determined as a random number between 0 and the max flight length 
-		int radius = RandomHelper.nextIntFromTo(1, flightLength); 
+		int radius = RandomHelper.nextIntFromTo(1, flightLength);
 		ArrayList<Plant> plantsInCircle = getPlantsInRadius(radius); //Creates an array of the plants within the search radius
 		Plant chosen = plantsInCircle.get(RandomHelper.nextIntFromTo(0,plantsInCircle.size() - 1)); //Chooses a random plant within the radius  
 		ArrayList<Plant> plantsInLine = getPlantsInLine(grid //Creates a flight path towards the chosen plant
@@ -245,15 +315,13 @@ public class Insect {
 			}
 		}
 		
-		/*if (p == null) {
+	 if (p == null) {
 			p = plantsInLine.get(plantsInLine.size()- 1);
-		}*/
+		}
 		
 		return p;
 	}
 		
-	
-
 	private Plant getPlantAt(int x, int y) { //get a plant at a specific point
 		Plant result = null;
 		for (Object o : grid.getObjectsAt(x, y)) {
@@ -361,11 +429,11 @@ public class Insect {
 			}
 		}
 		else {	
-			if(currentPlantType.equals(c) && previousPlant.equals(t)){
-				speciesParams.increaseFromCropToTrap();
+			if(currentPlantType.equals(c)){
+				speciesParams.increaseFromTrapToCrop();
 			}
 			else { 
-				speciesParams.increaseFromTrapToCrop();
+				speciesParams.increaseFromCropToTrap();
 			}	
 		}
 	}
@@ -381,5 +449,4 @@ public class Insect {
 	public InsectParams getSpeciesParams() {
 		return speciesParams;
 	}
-	
 }

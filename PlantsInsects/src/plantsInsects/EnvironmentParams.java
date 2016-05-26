@@ -8,6 +8,7 @@ public class EnvironmentParams {
 	private int numInsects;
 	private int numPlants;
 	private PlantSpacialDistribution distribution;
+	private static boolean repellentTrue; 
 
 
 	public EnvironmentParams() {

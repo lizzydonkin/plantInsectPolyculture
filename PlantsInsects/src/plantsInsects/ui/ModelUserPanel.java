@@ -245,7 +245,6 @@ public class ModelUserPanel extends JPanel implements ActionListener {
 				(int) insectCountSpinner.getValue(),
 				(int) plantCountSpinner.getValue(),
 				(PlantSpacialDistribution) plantDistCombo.getSelectedItem());
-
 		return envParams;
 	}
 

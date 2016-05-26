@@ -185,26 +185,6 @@ public class PlantParamsPanel extends JPanel implements ActionListener {
 		gbc_spinnerThreshold.gridx = 1;
 		gbc_spinnerThreshold.gridy = 4;
 		add(thresholdSpinner, gbc_spinnerThreshold);
-
-		/*JLabel lblReproductiveSuccess = new JLabel("Reproductive Success");
-		GridBagConstraints gbc_lblReproductiveSuccess = new GridBagConstraints();
-		gbc_lblReproductiveSuccess.anchor = GridBagConstraints.EAST;
-		gbc_lblReproductiveSuccess.insets = new Insets(0, 0, 5, 5);
-		gbc_lblReproductiveSuccess.gridx = 0;
-		gbc_lblReproductiveSuccess.gridy = 4;
-		add(lblReproductiveSuccess, gbc_lblReproductiveSuccess);
-*/
-		/*reprodSpinner = new JSpinner();
-		reprodSpinner
-				.setToolTipText("Maximum eggs that can hatch on a plant in a day. The actual amount of eggs that hatch may be lower depending on the total number of eggs on the plant and the damage it has taken.");
-		reprodSpinner.setModel(new SpinnerNumberModel(new Integer(20),
-				new Integer(1), null, new Integer(1)));
-		GridBagConstraints gbc_spinnerReprod = new GridBagConstraints();
-		gbc_spinnerReprod.fill = GridBagConstraints.HORIZONTAL;
-		gbc_spinnerReprod.insets = new Insets(0, 0, 5, 5);
-		gbc_spinnerReprod.gridx = 1;
-		gbc_spinnerReprod.gridy = 4;
-		add(reprodSpinner, gbc_spinnerReprod);*/
 		
 		JLabel lblFlightChance = new JLabel("Flight chance");
 		GridBagConstraints gbc_lblFlightChance = new GridBagConstraints();

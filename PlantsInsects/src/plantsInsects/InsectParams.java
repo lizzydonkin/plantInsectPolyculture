@@ -2,8 +2,12 @@ package plantsInsects;
 
 import java.awt.Color;
 import java.util.ArrayList;
+
 import plantsInsects.enums.InsectInitialDistribution;
 import plantsInsects.enums.InsectSensoryMode;
+import repast.simphony.context.Context;
+import repast.simphony.space.grid.GridPoint;
+import repast.simphony.util.ContextUtils;
 
 public class InsectParams {
 

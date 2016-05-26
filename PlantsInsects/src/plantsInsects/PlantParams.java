@@ -99,17 +99,15 @@ public class PlantParams {
 		count = c;
 	}
 	
-	public void increaseFlightChance(){ // eld 
-		//System.out.println("increase flight chance is called");
+	public void increaseFlightChance(){
 		flightChance = 1;
 	}
 	
-	public double getFlightChance(){ // don't know why this is static
-		//System.out.println("flight chance" + flightChance);
+	public double getFlightChance(){ 
 		return flightChance;
 	}
 	
-	public double getMigrationRate(){  //eld 
+	public double getMigrationRate(){  
 		return migrationRate;
 	}
 	
