@@ -72,7 +72,7 @@ public class Insect {
 			killInsect();
 			return;
 		}
-		plant.updateDamage();// update the damage to the plants (damage threshold - 1 for each insect present on it)
+		plant.updateDamage();// update the damage to the all of the plants (damage threshold - 1 for each insect present on it)
 		plant.updateMigrationRate();
 		insectUpdateEmigrationRate();
 		age++;//   increase age of insects by 1
