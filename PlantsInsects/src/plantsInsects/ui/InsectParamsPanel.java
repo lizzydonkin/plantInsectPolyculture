@@ -44,15 +44,10 @@ public class InsectParamsPanel extends JPanel implements ActionListener {
 	private ParameterSerializationHelper serializationHelper;
 
 	private JTextField insectIdEdit;
-	//private JSpinner maxEggsSpinner; // Is this the maximum eggs or the max laid on each plant?! 
 	private JSpinner initialCountSpinner;
-	/*private JTable eggCountTable;*/ // ELD
 	private JTable flightPrefTable;
-	//private JSpinner tradeOffSpinner; //ELD
-	//private JSpinner toleranceSpinner; //ELD
 	private JSpinner mortalitySpinner;
 	private JSpinner maxFlightSpinner;
-	//private JSpinner eggHatchTimeSpinner; //ELD 
 	private JComboBox sensoryModeCombo;
 	private JComboBox distribCombo;
 	private JSpinner memSizeSpinner;
@@ -155,63 +150,6 @@ public class InsectParamsPanel extends JPanel implements ActionListener {
 		gbc_spinnerInsectCount.gridy = 2;
 		add(initialCountSpinner, gbc_spinnerInsectCount);
 
-		/*JLabel lblMaximumEggs = new JLabel("Maximum Eggs");
-		GridBagConstraints gbc_lblMaximumEggs = new GridBagConstraints();
-		gbc_lblMaximumEggs.anchor = GridBagConstraints.EAST;
-		gbc_lblMaximumEggs.insets = new Insets(0, 0, 5, 5);
-		gbc_lblMaximumEggs.gridx = 0;
-		gbc_lblMaximumEggs.gridy = 3;
-		add(lblMaximumEggs, gbc_lblMaximumEggs);*/
-
-	/*	maxEggsSpinner = new JSpinner();
-		maxEggsSpinner
-				.setToolTipText("The maximum number of eggs an insect is born with.");
-		maxEggsSpinner.setModel(new SpinnerNumberModel(5, 1, 50, 1));
-		GridBagConstraints gbc_spinnerMaxEggs = new GridBagConstraints();
-		gbc_spinnerMaxEggs.fill = GridBagConstraints.HORIZONTAL;
-		gbc_spinnerMaxEggs.insets = new Insets(0, 0, 5, 5);
-		gbc_spinnerMaxEggs.gridx = 1;
-		gbc_spinnerMaxEggs.gridy = 3;
-		add(maxEggsSpinner, gbc_spinnerMaxEggs);*/
-
-	/*	JLabel lblTradeoff = new JLabel("Trade-off");
-		GridBagConstraints gbc_lblTradeoff = new GridBagConstraints();
-		gbc_lblTradeoff.anchor = GridBagConstraints.EAST;
-		gbc_lblTradeoff.insets = new Insets(0, 0, 5, 5);
-		gbc_lblTradeoff.gridx = 0;
-		gbc_lblTradeoff.gridy = 4;
-		add(lblTradeoff, gbc_lblTradeoff);*/
-/*
-		tradeOffSpinner = new JSpinner();
-		tradeOffSpinner
-				.setToolTipText("Percentage of eggs that die if laid on non-host plants (for specialists) and percentage of eggs that die on all plants (for generalists).");
-		tradeOffSpinner.setModel(new SpinnerNumberModel(0.5, 0.0, 1.0, 0.1));
-		GridBagConstraints gbc_spinnerTradeOff = new GridBagConstraints();
-		gbc_spinnerTradeOff.fill = GridBagConstraints.HORIZONTAL;
-		gbc_spinnerTradeOff.insets = new Insets(0, 0, 5, 5);
-		gbc_spinnerTradeOff.gridx = 1;
-		gbc_spinnerTradeOff.gridy = 4;
-		add(tradeOffSpinner, gbc_spinnerTradeOff);*/
-/*
-		JLabel lblTolerance = new JLabel("Tolerance");
-		GridBagConstraints gbc_lblTolerance = new GridBagConstraints();
-		gbc_lblTolerance.anchor = GridBagConstraints.EAST;
-		gbc_lblTolerance.insets = new Insets(0, 0, 5, 5);
-		gbc_lblTolerance.gridx = 0;
-		gbc_lblTolerance.gridy = 5;
-		add(lblTolerance, gbc_lblTolerance);
-
-		toleranceSpinner = new JSpinner();
-		toleranceSpinner
-				.setToolTipText("How long (in days) a specialist will persist in not laying eggs on non-host plants.");
-		toleranceSpinner.setModel(new SpinnerNumberModel(0, 0, 10, 1));
-		GridBagConstraints gbc_spinnerTolerance = new GridBagConstraints();
-		gbc_spinnerTolerance.insets = new Insets(0, 0, 5, 5);
-		gbc_spinnerTolerance.fill = GridBagConstraints.HORIZONTAL;
-		gbc_spinnerTolerance.gridx = 1;
-		gbc_spinnerTolerance.gridy = 5;
-		add(toleranceSpinner, gbc_spinnerTolerance);*/
-
 		JLabel lblDailyMortalityRate = new JLabel("Daily Mortality Rate");
 		GridBagConstraints gbc_lblDailyMortalityRate = new GridBagConstraints();
 		gbc_lblDailyMortalityRate.anchor = GridBagConstraints.EAST;
@@ -243,32 +181,13 @@ public class InsectParamsPanel extends JPanel implements ActionListener {
 		maxFlightSpinner = new JSpinner();
 		maxFlightSpinner
 				.setToolTipText("The maximum distance (in number of plants) an insect can fly. Also used for maximum range of vision for visual insects.");
-		maxFlightSpinner.setModel(new SpinnerNumberModel(10, 1, 20, 1));
+		maxFlightSpinner.setModel(new SpinnerNumberModel(10, 1, 10000, 1));
 		GridBagConstraints gbc_spinnerMaxFlight = new GridBagConstraints();
 		gbc_spinnerMaxFlight.fill = GridBagConstraints.HORIZONTAL;
 		gbc_spinnerMaxFlight.insets = new Insets(0, 0, 5, 5);
 		gbc_spinnerMaxFlight.gridx = 1;
 		gbc_spinnerMaxFlight.gridy = 7;
 		add(maxFlightSpinner, gbc_spinnerMaxFlight);
-
-	//	JLabel lblEggHatchTime = new JLabel("Egg Hatch Time");
-/*		GridBagConstraints gbc_lblEggHatchTime = new GridBagConstraints();
-		gbc_lblEggHatchTime.anchor = GridBagConstraints.EAST;
-		gbc_lblEggHatchTime.insets = new Insets(0, 0, 5, 5);
-		gbc_lblEggHatchTime.gridx = 0;
-		gbc_lblEggHatchTime.gridy = 8;
-		add(lblEggHatchTime, gbc_lblEggHatchTime);
-
-		eggHatchTimeSpinner = new JSpinner();
-		eggHatchTimeSpinner
-				.setToolTipText("The number of days an egg takes to hatch after being laid.");
-		eggHatchTimeSpinner.setModel(new SpinnerNumberModel(2, 1, 10, 1));
-		GridBagConstraints gbc_spinnerEggHatch = new GridBagConstraints();
-		gbc_spinnerEggHatch.fill = GridBagConstraints.HORIZONTAL;
-		gbc_spinnerEggHatch.insets = new Insets(0, 0, 5, 5);
-		gbc_spinnerEggHatch.gridx = 1;
-		gbc_spinnerEggHatch.gridy = 8;
-		add(eggHatchTimeSpinner, gbc_spinnerEggHatch);*/
 
 		JLabel lblSensoryMode = new JLabel("Sensory Mode");
 		GridBagConstraints gbc_lblSensoryMode = new GridBagConstraints();
@@ -364,51 +283,7 @@ public class InsectParamsPanel extends JPanel implements ActionListener {
 		gbc_spinnerMigIn.gridx = 1;
 		gbc_spinnerMigIn.gridy = 13;
 		add(migInSpinner, gbc_spinnerMigIn);
-
-	/*	JLabel lblPlantPreference = new JLabel("Eggs Laid on Plants");
-		GridBagConstraints gbc_lblPlantPreference = new GridBagConstraints();
-		gbc_lblPlantPreference.anchor = GridBagConstraints.EAST;
-		gbc_lblPlantPreference.insets = new Insets(0, 0, 5, 5);
-		gbc_lblPlantPreference.gridx = 0;
-		gbc_lblPlantPreference.gridy = 14;
-		add(lblPlantPreference, gbc_lblPlantPreference);
-*/
-/*		eggCountTable = new JTable();
-		eggCountTable
-				.setToolTipText("Number of eggs laid on each plant species -a higher number indicates a more preferred plant species.");
-		eggCountTable.setModel(new DefaultTableModel() {
-			boolean[] columnEditables = new boolean[] { false, true };
-
-			public boolean isCellEditable(int row, int column) {
-				return columnEditables[column];
-			}
-		});
-		GridBagConstraints gbc_eggCountTable = new GridBagConstraints();
-		gbc_eggCountTable.insets = new Insets(0, 0, 5, 0);
-		gbc_eggCountTable.gridwidth = 2;
-		gbc_eggCountTable.fill = GridBagConstraints.HORIZONTAL;
-		gbc_eggCountTable.gridx = 1;
-		gbc_eggCountTable.gridy = 14;
-		add(eggCountTable, gbc_eggCountTable);*/
 		
-		/*flightPrefTable = new JTable();
-		flightPrefTable
-				.setToolTipText("The likelihood of the insect leaving the plant.");
-		flightPrefTable.setModel(new DefaultTableModel() {
-			boolean[] columnEditables = new boolean[] { false, true };
-
-			public boolean isCellEditable(int row, int column) {
-				return columnEditables[column];
-			}
-		});
-		GridBagConstraints gbc_flightPrefTable = new GridBagConstraints();
-		gbc_flightPrefTable.insets = new Insets(0, 0, 5, 0);
-		gbc_flightPrefTable.gridwidth = 2;
-		gbc_flightPrefTable.fill = GridBagConstraints.HORIZONTAL;
-		gbc_flightPrefTable.gridx = 1;
-		gbc_flightPrefTable.gridy = 14;
-		add(flightPrefTable, gbc_flightPrefTable);
-*/
 		saveButton = new JButton("Save Insect");
 		GridBagConstraints gbc_saveButton = new GridBagConstraints();
 		gbc_saveButton.insets = new Insets(0, 0, 5, 5);
@@ -420,55 +295,19 @@ public class InsectParamsPanel extends JPanel implements ActionListener {
 		setParams(params);
 	}
 
-/*	public InsectParams getParams() {
-		HashMap<String, Integer> map = new HashMap<String, Integer>();
-		for (int i = 0; i < eggCountTable.getModel().getRowCount(); i++) {
-			String plant = (String) eggCountTable.getModel().getValueAt(i, 0);
-			int eggCount = Integer.parseInt(eggCountTable.getModel()
-					.getValueAt(i, 1).toString());
-			map.put(plant, eggCount);
-		}*/ //ELD
 		
 		public InsectParams getParams() {
-			/*HashMap<String, Double> map = new HashMap<String, Double>();
-			for (int i = 0; i < flightPrefTable.getModel().getRowCount(); i++) {
-				String plant = (String) flightPrefTable.getModel().getValueAt(i, 0);
-				double flightPref = Double.parseDouble(flightPrefTable.getModel()
-						.getValueAt(i, 1).toString());
-				map.put(plant, flightPref);
-			}
-			*/
-/*		params = new InsectParams(insectIdEdit.getText(),
-				(int) initialCountSpinner.getValue(),
-				(int) maxEggsSpinner.getValue(),
-				(double) tradeOffSpinner.getValue(),
-				(int) toleranceSpinner.getValue(),
-				(double) mortalitySpinner.getValue(),
-				(int) maxFlightSpinner.getValue(),
-				(int) eggHatchTimeSpinner.getValue(),
-				(InsectSensoryMode) sensoryModeCombo.getSelectedItem(),
-				(InsectInitialDistribution) distribCombo.getSelectedItem(),
-				(int) memSizeSpinner.getValue(),
-				(double) migOutSpinner.getValue(),
-				(double) migInSpinner.getValue(), map,
-				colourLabel.getBackground());*/ //ELD 
-		
 			params = new InsectParams(
 			insectIdEdit.getText(),
 			(int) initialCountSpinner.getValue(),
 			(InsectSensoryMode) sensoryModeCombo.getSelectedItem(),
 			(InsectInitialDistribution) distribCombo.getSelectedItem(),
-			//(int) maxEggsSpinner.getValue(),
-			//(double) tradeOffSpinner.getValue(),
-			//(int) toleranceSpinner.getValue(),
 			(double) mortalitySpinner.getValue(),
 			(int) memSizeSpinner.getValue(),
 			(int) maxFlightSpinner.getValue(),
-			//(int) eggHatchTimeSpinner.getValue(),
-		//	map,
 			(double) migOutSpinner.getValue(),
 			(double) migInSpinner.getValue(), 
-			colourLabel.getBackground()); //ELD 
+			colourLabel.getBackground()); 
 			
 			return params;
 		}
@@ -477,57 +316,17 @@ public class InsectParamsPanel extends JPanel implements ActionListener {
 		this.params = params;
 
 		insectIdEdit.setText(params.getInsectId());
-		//maxEggsSpinner.setValue(params.getMaxEggs()); //ELD
 		initialCountSpinner.setValue(params.getInitialCount());
-		//tradeOffSpinner.setValue(params.getTradeOff()); //ELD
-		//toleranceSpinner.setValue(params.getTolerance()); //ELD
 		mortalitySpinner.setValue(params.getMortalityRate());
 		maxFlightSpinner.setValue(params.getMaxFlightLength());
-		//eggHatchTimeSpinner.setValue(params.getEggHatchTime()); //ELD
 		sensoryModeCombo.setSelectedItem(params.getSensoryMode());
 		distribCombo.setSelectedItem(params.getInitialDist());
 		memSizeSpinner.setValue(params.getMemorySize());
 		migOutSpinner.setValue(params.getMigrationOutRate());
 		migInSpinner.setValue(params.getMigrationInRate());
 		colourLabel.setBackground(params.getDisplayCol());
-
-		/*Object[][] tableData = new Object[plantParams.size()][2]; // ELD
-		int index = 0;
-
-		for (PlantParams pp : plantParams) { //ELD
-			tableData[index][0] = pp.getPlantId();
-			Integer eggNum = params.getEggsPerPlant().get(pp.getPlantId());
-			if (eggNum == null) {
-				eggNum = 1;
-			}
-			tableData[index][1] = eggNum;
-			index++;
-		}
-
-		String[] colNames = new String[] { "Plant Name", "Egg Count" }; //ELD
-
-		DefaultTableModel model = (DefaultTableModel) eggCountTable.getModel(); //ELD
-		model.setDataVector(tableData, colNames); //ELD 
-	}*/
-		
-	/*Object[][] tableData = new Object[plantParams.size()][2]; // ELD
-	int index = 0;*/
-
-	/*for (PlantParams pp : plantParams) { //ELD
-		tableData[index][0] = pp.getPlantId();
-		Double flightPref = params.getFlightPref().get(pp.getPlantId());
-		if (flightPref == null) {
-			flightPref = 0.5;
-		}
-		tableData[index][1] = flightPref;
-		index++;*/
 	}
 
-/*	String[] colNames = new String[] { "Plant Name", "Flight pref" }; //ELD
-
-	DefaultTableModel model = (DefaultTableModel) flightPrefTable.getModel(); //ELD
-	model.setDataVector(tableData, colNames); //ELD 
-}*/
 
 	@Override
 	public void actionPerformed(ActionEvent arg0) {

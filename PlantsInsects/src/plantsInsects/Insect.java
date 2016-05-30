@@ -1,7 +1,10 @@
 package plantsInsects;
 
+import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
+import java.awt.Paint;
+import java.awt.Stroke;
 
 import repast.simphony.context.Context;
 import repast.simphony.engine.environment.RunEnvironment;
@@ -25,6 +28,7 @@ public class Insect {
 	private boolean moved;
 	private boolean dead;
 	private double emigrationProb;
+	
 
 	public Insect(InsectParams params, Context<Object> context) { 
 		grid = (Grid<Object>) context.getProjection("grid");
@@ -299,13 +303,15 @@ public class Insect {
 	private Plant getNextPlantOlfactory() {
 		int flightLength = speciesParams.getMaxFlightLength(); //Flight length (and therefore search radius) is determined as a random number between 0 and the max flight length 
 		int radius = RandomHelper.nextIntFromTo(1, flightLength);
-		ArrayList<Plant> plantsInCircle = getPlantsInRadius(radius); //Creates an array of the plants within the search radius
-		Plant chosen = plantsInCircle.get(RandomHelper.nextIntFromTo(0,plantsInCircle.size() - 1)); //Chooses a random plant within the radius  
+		ArrayList<Plant> plantsToAimFor = getPlantsAtRadius(radius); //Creates an array of the plants within the search radius
+		System.out.println(plantsToAimFor);
+		Plant chosen = plantsToAimFor.get(RandomHelper.nextIntFromTo(0,plantsToAimFor.size() - 1)); //Chooses a random plant within the radius  
 		ArrayList<Plant> plantsInLine = getPlantsInLine(grid //Creates a flight path towards the chosen plant
 				.getLocation(chosen));
 		Plant p = null;
+		int lowestFlightChance = 100;
 		for (Plant o : plantsInLine) { // Chooses preferred plants, landing is stochastic, with 70% of detecting/landing on the plant
-			if(o.getSpeciesParams().getFlightChance() <= 0.05 
+			if(o.getSpeciesParams().getFlightChance() < lowestFlightChance//(o.getSpeciesParams().getFlightChance() < 0.5  // was <= 0.05
 					&& RandomHelper.nextDoubleFromTo(0,1) < 0.7 
 					&& !visitedPlants.contains(o)) {
 				p = o;
@@ -361,8 +367,42 @@ public class Insect {
 					&& y4 < ((grid.getDimensions().getHeight())-1))
 						plantsInCircle.add(getPlantAt(x4, y4));
 			}
-		}
+		} 
 		return plantsInCircle;
+	}
+	
+	private ArrayList<Plant> getPlantsAtRadius(int r) { //creates an array of plants within a circle with a given radius
+		GridPoint insPoint = grid.getLocation(this);
+		ArrayList<Plant> plantsAtRadius = new ArrayList<Plant>();
+		int i = r;
+			for (int p = -i; p <= i; p++) {
+				int x1 = insPoint.getX() - i;
+				int y1 = insPoint.getY() + p;
+				if (i != p)
+					if (x1 >= 0 && x1 < ((grid.getDimensions().getWidth()) - 1) && y1 >= 0
+					&& y1 < ((grid.getDimensions().getHeight()) -1))
+						plantsAtRadius.add(getPlantAt(x1, y1));
+				int x2 = insPoint.getX() + i;
+				int y2 = insPoint.getY() + p;
+				if (r != -p)
+					if (x2 >= 0 && x2 < ((grid.getDimensions().getWidth()) - 1) && y2 >= 0
+					&& y2 < ((grid.getDimensions().getHeight())-1))
+						plantsAtRadius.add(getPlantAt(x2, y2));
+				int x3 = insPoint.getX() + p;
+				int y3 = insPoint.getY() - i;
+				if (r != -p)
+					if (x3 >= 0 && x3 < ((grid.getDimensions().getWidth()) -1) && y3 >= 0
+					&& y3 < ((grid.getDimensions().getHeight())-1))
+						plantsAtRadius.add(getPlantAt(x3, y3));
+				int x4 = insPoint.getX() + p;
+				int y4 = insPoint.getY() + i;
+				if (r != p)
+					if (x4 >= 0 && x4 < ((grid.getDimensions().getWidth()) -1) && y4 >= 0
+					&& y4 < ((grid.getDimensions().getHeight())-1))
+						plantsAtRadius.add(getPlantAt(x4, y4));
+			
+		} 
+		return plantsAtRadius;
 	}
 
 	private ArrayList<Plant> getPlantsInLine(GridPoint toPoint) {
