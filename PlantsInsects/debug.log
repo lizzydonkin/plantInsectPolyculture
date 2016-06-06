@@ -173,3 +173,4 @@ INFO  [pool-4-thread-1] 2016-06-06 14:33:22,773 repast.simphony.batch.ssh.LocalD
 INFO  [pool-4-thread-1] 2016-06-06 14:34:22,780 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465219213088 for DONE:  no
 INFO  [pool-4-thread-1] 2016-06-06 14:35:22,782 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465219213088 for DONE:  no
 INFO  [pool-4-thread-1] 2016-06-06 14:36:22,789 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465219213088 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-06 14:37:22,793 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465219213088 for DONE:  no
