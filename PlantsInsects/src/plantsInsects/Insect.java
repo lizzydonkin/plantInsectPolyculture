@@ -303,7 +303,7 @@ public class Insect {
 	private Plant getNextPlantOlfactory() {
 		int flightLength = speciesParams.getMaxFlightLength(); //Flight length (and therefore search radius) is determined as a random number between 0 and the max flight length 
 		int radius = RandomHelper.nextIntFromTo(1, flightLength);
-		ArrayList<Plant> plantsToAimFor = getPlantsAtRadius(radius); //Creates an array of the plants within the search radius
+		ArrayList<Plant> plantsToAimFor = getPlantsAtRadius(radius); //Creates an array of the plants at the edge of the search radius
 		Plant chosen = plantsToAimFor.get(RandomHelper.nextIntFromTo(0,plantsToAimFor.size() - 1)); //Chooses a random plant within the radius  
 		ArrayList<Plant> plantsInLine = getPlantsInLine(grid //Creates a flight path towards the chosen plant
 				.getLocation(chosen));
@@ -319,7 +319,7 @@ public class Insect {
 		}
 		
 	 if (p == null) {
-			p = plantsInLine.get(plantsInLine.size()- 1);
+			p = plantsInLine.get(plantsInLine.size()- 1); // if the insects doesn't land, it moves to last plant in the plants in line array
 		}
 		
 		return p;
