@@ -2,6 +2,7 @@ package plantsInsects;
 
 import java.awt.Color;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.awt.Paint;
 import java.awt.Stroke;
@@ -299,6 +300,28 @@ public class Insect {
 		}
 		return result;
 	}
+	
+	public double getLowestFlightChance(){ // establishes what the lowest flight chance in the population is 
+		ArrayList <Double> flightChances = new ArrayList<>();
+		int x = 0;
+		int y = 0;
+		int width = grid.getDimensions().getWidth();
+		int height = grid.getDimensions().getHeight();
+		for (x= 0; x <= width - 1; x++){
+			for (y= 0; y <= height - 1; y++){
+				int newXCor = x;
+				int newYCor = y;
+				
+				Plant p = getPlantAt(newXCor, newYCor);
+				if (p != null){
+				double fc = p.getSpeciesParams().getFlightChance();
+					flightChances.add(fc);}
+				}
+			}
+		Collections.sort(flightChances);
+		double lowestFC = flightChances.get(0);
+		return lowestFC; 
+	}
 
 	private Plant getNextPlantOlfactory() {
 		int flightLength = speciesParams.getMaxFlightLength(); //Flight length (and therefore search radius) is determined as a random number between 0 and the max flight length 
@@ -308,9 +331,9 @@ public class Insect {
 		ArrayList<Plant> plantsInLine = getPlantsInLine(grid //Creates a flight path towards the chosen plant
 				.getLocation(chosen));
 		Plant p = null;
-		int lowestFlightChance = 100;
+		double lowestFlightChance = getLowestFlightChance();//100;
 		for (Plant o : plantsInLine) { // Chooses preferred plants, landing is stochastic, with 70% of detecting/landing on the plant
-			if(o.getSpeciesParams().getFlightChance() < lowestFlightChance//(o.getSpeciesParams().getFlightChance() < 0.5  // was <= 0.05
+			if(o.getSpeciesParams().getFlightChance() <= lowestFlightChance//(o.getSpeciesParams().getFlightChance() < 0.5  // was <= 0.05
 					&& RandomHelper.nextDoubleFromTo(0,1) < 0.7 
 					&& !visitedPlants.contains(o)) {
 				p = o;
@@ -321,7 +344,6 @@ public class Insect {
 	 if (p == null) {
 			p = plantsInLine.get(plantsInLine.size()- 1); // if the insects doesn't land, it moves to last plant in the plants in line array
 		}
-		
 		return p;
 	}
 		
