@@ -12,6 +12,12 @@
 						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
 									
 		/>
+				<parameter name="p__percentage" displayName="p__percentage" type="java.lang.Double" 
+						defaultValue="0.5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
 				<parameter name="p_Trap_percentage" displayName="p_Trap_percentage" type="java.lang.Double" 
 						defaultValue="0.25" 
 						isReadOnly="false" 
@@ -24,7 +30,12 @@
 						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
 									
 		/>
-				
+				<parameter name="p__type" displayName="p__type" type="java.lang.String" 
+						defaultValue="Crop" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
 				<parameter name="i_Insect_max_flight_len" displayName="i_Insect_max_flight_len" type="java.lang.Integer" 
 						defaultValue="5" 
 						isReadOnly="false" 
@@ -37,7 +48,12 @@
 						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
 									
 		/>
-				
+				<parameter name="p__migrationRate" displayName="p__migrationRate" type="java.lang.Double" 
+						defaultValue="0.05" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+									
+		/>
 				<parameter name="p_Crop_dmg_threshold" displayName="p_Crop_dmg_threshold" type="java.lang.Integer" 
 						defaultValue="100" 
 						isReadOnly="false" 
@@ -50,7 +66,12 @@
 						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
 									
 		/>
-			
+				<parameter name="p__dmg_threshold" displayName="p__dmg_threshold" type="java.lang.Integer" 
+						defaultValue="100" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
 				<parameter name="p_Trap_id" displayName="p_Trap_id" type="java.lang.String" 
 						defaultValue="Trap" 
 						isReadOnly="false" 
@@ -111,6 +132,12 @@
 						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
 									
 		/>
+				<parameter name="p__repellentCheck" displayName="p__repellentCheck" type="java.lang.Boolean" 
+						defaultValue="false" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+									
+		/>
 				<parameter name="i_Insect_colour" displayName="i_Insect_colour" type="java.lang.String" 
 						defaultValue="#ff0000" 
 						isReadOnly="false" 
@@ -159,10 +186,22 @@
 						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
 									
 		/>
+				<parameter name="p__colour" displayName="p__colour" type="java.lang.String" 
+						defaultValue="#00ff00" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
 				<parameter name="i_Insect_memory_size" displayName="i_Insect_memory_size" type="java.lang.Integer" 
 						defaultValue="5" 
 						isReadOnly="false" 
 						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				<parameter name="p__flightChance" displayName="p__flightChance" type="java.lang.Double" 
+						defaultValue="0.25" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
 									
 		/>
 				<parameter name="p_Trap_migrationRate" displayName="p_Trap_migrationRate" type="java.lang.Double" 
@@ -185,6 +224,12 @@
 		/>
 				<parameter name="p_Crop_type" displayName="p_Crop_type" type="java.lang.String" 
 						defaultValue="Crop" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
+		/>
+				<parameter name="p__id" displayName="p__id" type="java.lang.String" 
+						defaultValue="" 
 						isReadOnly="false" 
 						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
 									

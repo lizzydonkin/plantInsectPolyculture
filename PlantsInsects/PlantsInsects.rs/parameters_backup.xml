@@ -18,22 +18,26 @@
 						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
 									
 		/>
-				<parameter name="p_Trap_type" displayName="p_Trap_type" type="java.lang.String"
-					defaultValue="Trap"
-					isReadOnly="false"
-					converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+				<parameter name="p_Trap_type" displayName="p_Trap_type" type="java.lang.String" 
+						defaultValue="Trap" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+									
 		/>
-				<parameter name="p_Crop_type" displayName="p_Crop_type" type="java.lang.String"
-					defaultValue="Crop"
-					isReadOnly="false"
-					converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
-		/>	
+				
 				<parameter name="i_Insect_max_flight_len" displayName="i_Insect_max_flight_len" type="java.lang.Integer" 
 						defaultValue="5" 
 						isReadOnly="false" 
 						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
 									
 		/>
+				<parameter name="gridSize" displayName="Grid Size" type="int" 
+						defaultValue="100" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
+				
 				<parameter name="p_Crop_dmg_threshold" displayName="p_Crop_dmg_threshold" type="java.lang.Integer" 
 						defaultValue="100" 
 						isReadOnly="false" 
@@ -46,6 +50,7 @@
 						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
 									
 		/>
+			
 				<parameter name="p_Trap_id" displayName="p_Trap_id" type="java.lang.String" 
 						defaultValue="Trap" 
 						isReadOnly="false" 
@@ -58,7 +63,7 @@
 						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
 									
 		/>
-					<parameter name="i_Insect_mig_out" displayName="i_Insect_mig_out" type="java.lang.Double" 
+				<parameter name="i_Insect_mig_out" displayName="i_Insect_mig_out" type="java.lang.Double" 
 						defaultValue="0.05" 
 						isReadOnly="false" 
 						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
@@ -68,6 +73,12 @@
 						defaultValue="false" 
 						isReadOnly="false" 
 						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+									
+		/>
+				<parameter name="plantIds" displayName="Plant Ids (semicolon separated)" type="java.lang.String" 
+						defaultValue="Trap;Crop" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
 									
 		/>
 				<parameter name="p_Trap_repellentCheck" displayName="p_Trap_repellentCheck" type="java.lang.Boolean" 
@@ -172,14 +183,8 @@
 						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
 									
 		/>
-		<parameter name="gridSize" displayName="Grid Size" type="int" 
-						defaultValue="100" 
-						isReadOnly="false" 
-						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
-									
-		/>
-		<parameter name="plantIds" displayName="Plant Ids (semicolon separated)" type="java.lang.String" 
-						defaultValue="Trap;Crop" 
+				<parameter name="p_Crop_type" displayName="p_Crop_type" type="java.lang.String" 
+						defaultValue="Crop" 
 						isReadOnly="false" 
 						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
 									

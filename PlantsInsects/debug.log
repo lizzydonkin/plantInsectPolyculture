@@ -307,3 +307,339 @@ INFO  [SwingWorker-pool-2-thread-5] 2016-06-06 16:19:12,694 repast.simphony.batc
 INFO  [SwingWorker-pool-2-thread-5] 2016-06-06 16:19:12,694 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
 INFO  [SwingWorker-pool-2-thread-5] 2016-06-06 16:19:12,725 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0005
 INFO  [SwingWorker-pool-2-thread-5] 2016-06-06 16:19:12,725 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 21.1128
+INFO  [AWT-EventQueue-0] 2016-06-08 09:20:54,280 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-06-08 09:20:54,720 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
+	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-1] 2016-06-08 09:21:25,009 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost1027885072381392354.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465374080132 ...
+INFO  [SwingWorker-pool-2-thread-1] 2016-06-08 09:21:25,040 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-1] 2016-06-08 09:21:25,529 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0818
+INFO  [SwingWorker-pool-2-thread-1] 2016-06-08 09:21:25,529 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465374080132\Elizabeth_localhost1027885072381392354.zip
+INFO  [SwingWorker-pool-2-thread-1] 2016-06-08 09:21:31,448 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-3-thread-1] 2016-06-08 09:22:31,470 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465374080132 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-1] 2016-06-08 09:22:31,470 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0990
+INFO  [SwingWorker-pool-2-thread-1] 2016-06-08 09:22:31,501 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465374080132
+INFO  [SwingWorker-pool-2-thread-1] 2016-06-08 09:22:31,532 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-1] 2016-06-08 09:22:31,532 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0010
+INFO  [SwingWorker-pool-2-thread-1] 2016-06-08 09:22:31,532 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.1992
+INFO  [AWT-EventQueue-0] 2016-06-08 09:39:01,581 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-06-08 09:39:01,581 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
+	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-2] 2016-06-08 09:39:12,623 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost1036549551592998192.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 ...
+INFO  [SwingWorker-pool-2-thread-2] 2016-06-08 09:39:12,662 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-2] 2016-06-08 09:39:12,662 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0701
+INFO  [SwingWorker-pool-2-thread-2] 2016-06-08 09:39:12,662 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459\Elizabeth_localhost1036549551592998192.zip
+INFO  [SwingWorker-pool-2-thread-2] 2016-06-08 09:39:13,803 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-4-thread-1] 2016-06-08 09:40:13,803 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:41:13,804 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:42:13,805 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:43:13,817 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:44:13,825 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:45:13,826 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:46:13,826 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:47:13,833 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:48:13,834 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:49:13,850 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:50:13,855 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:51:13,855 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:52:13,863 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:53:13,864 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:54:13,864 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:55:13,865 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  no
+INFO  [pool-4-thread-1] 2016-06-08 09:56:13,878 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-2] 2016-06-08 09:56:13,879 repast.simphony.batch.ssh.SessionsDriver - Run Time: 17.0203
+INFO  [SwingWorker-pool-2-thread-2] 2016-06-08 09:56:13,884 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1465375148459
+INFO  [SwingWorker-pool-2-thread-2] 2016-06-08 09:56:13,888 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-2] 2016-06-08 09:56:13,912 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0005
+INFO  [SwingWorker-pool-2-thread-2] 2016-06-08 09:56:13,912 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 17.0911
+INFO  [AWT-EventQueue-0] 2016-07-05 08:20:13,525 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-07-05 08:20:14,116 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
+	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 08:20:42,484 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost8772243517588103642.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467703238147 ...
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 08:20:42,515 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 08:20:42,580 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0728
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 08:20:42,580 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467703238147\Elizabeth_localhost8772243517588103642.zip
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 08:20:44,765 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-3-thread-1] 2016-07-05 08:21:44,780 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467703238147 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 08:22:44,781 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467703238147 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 08:23:44,782 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467703238147 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 08:24:44,783 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467703238147 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 08:25:44,783 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467703238147 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 08:26:44,784 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467703238147 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 08:27:44,785 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467703238147 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 08:28:44,786 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467703238147 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 08:29:44,787 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467703238147 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 08:30:44,787 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467703238147 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 08:30:44,788 repast.simphony.batch.ssh.SessionsDriver - Run Time: 10.0368
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 08:30:44,866 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467703238147
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 08:30:44,894 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 08:30:44,972 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0031
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 08:30:44,973 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 10.1145
+INFO  [AWT-EventQueue-0] 2016-07-05 09:04:17,589 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-07-05 09:04:17,596 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
+	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-2] 2016-07-05 09:04:28,381 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost2244423579152890279.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467705864143 ...
+INFO  [SwingWorker-pool-2-thread-2] 2016-07-05 09:04:28,417 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-2] 2016-07-05 09:04:28,417 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0712
+INFO  [SwingWorker-pool-2-thread-2] 2016-07-05 09:04:28,417 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467705864143\Elizabeth_localhost2244423579152890279.zip
+INFO  [SwingWorker-pool-2-thread-2] 2016-07-05 09:04:30,811 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-4-thread-1] 2016-07-05 09:05:30,811 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467705864143 for DONE:  no
+INFO  [pool-4-thread-1] 2016-07-05 09:06:30,812 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467705864143 for DONE:  no
+INFO  [pool-4-thread-1] 2016-07-05 09:07:30,813 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467705864143 for DONE:  no
+INFO  [pool-4-thread-1] 2016-07-05 09:08:30,814 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467705864143 for DONE:  no
+INFO  [pool-4-thread-1] 2016-07-05 09:09:30,815 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467705864143 for DONE:  no
+INFO  [pool-4-thread-1] 2016-07-05 09:10:30,815 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467705864143 for DONE:  no
+INFO  [pool-4-thread-1] 2016-07-05 09:11:30,816 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467705864143 for DONE:  no
+INFO  [pool-4-thread-1] 2016-07-05 09:12:30,817 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467705864143 for DONE:  no
+INFO  [pool-4-thread-1] 2016-07-05 09:13:30,818 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467705864143 for DONE:  no
+INFO  [pool-4-thread-1] 2016-07-05 09:14:30,818 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467705864143 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-2] 2016-07-05 09:14:30,819 repast.simphony.batch.ssh.SessionsDriver - Run Time: 10.0400
+INFO  [SwingWorker-pool-2-thread-2] 2016-07-05 09:14:30,825 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467705864143
+INFO  [SwingWorker-pool-2-thread-2] 2016-07-05 09:14:30,829 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-2] 2016-07-05 09:14:30,904 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0014
+INFO  [SwingWorker-pool-2-thread-2] 2016-07-05 09:14:30,905 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 10.1132
+INFO  [AWT-EventQueue-0] 2016-07-05 09:16:19,688 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-07-05 09:16:19,696 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
+	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-3] 2016-07-05 09:16:32,260 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost6224763998100179641.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467706588043 ...
+INFO  [SwingWorker-pool-2-thread-3] 2016-07-05 09:16:32,297 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-3] 2016-07-05 09:16:32,297 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0709
+INFO  [SwingWorker-pool-2-thread-3] 2016-07-05 09:16:32,298 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467706588043\Elizabeth_localhost6224763998100179641.zip
+INFO  [SwingWorker-pool-2-thread-3] 2016-07-05 09:16:33,588 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-5-thread-1] 2016-07-05 09:17:33,588 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467706588043 for DONE:  no
+INFO  [pool-5-thread-1] 2016-07-05 09:18:33,589 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467706588043 for DONE:  no
+INFO  [pool-5-thread-1] 2016-07-05 09:19:33,590 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467706588043 for DONE:  no
+INFO  [pool-5-thread-1] 2016-07-05 09:20:33,590 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467706588043 for DONE:  no
+INFO  [pool-5-thread-1] 2016-07-05 09:21:33,591 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467706588043 for DONE:  no
+INFO  [pool-5-thread-1] 2016-07-05 09:22:33,592 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467706588043 for DONE:  no
+INFO  [pool-5-thread-1] 2016-07-05 09:23:33,593 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467706588043 for DONE:  no
+INFO  [pool-5-thread-1] 2016-07-05 09:24:33,593 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467706588043 for DONE:  no
+INFO  [pool-5-thread-1] 2016-07-05 09:25:33,594 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467706588043 for DONE:  no
+INFO  [pool-5-thread-1] 2016-07-05 09:26:33,595 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467706588043 for DONE:  no
+INFO  [pool-5-thread-1] 2016-07-05 09:27:33,596 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467706588043 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-3] 2016-07-05 09:27:33,596 repast.simphony.batch.ssh.SessionsDriver - Run Time: 11.0216
+INFO  [SwingWorker-pool-2-thread-3] 2016-07-05 09:27:33,603 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467706588043
+INFO  [SwingWorker-pool-2-thread-3] 2016-07-05 09:27:33,607 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-3] 2016-07-05 09:27:33,705 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0018
+INFO  [SwingWorker-pool-2-thread-3] 2016-07-05 09:27:33,705 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 11.0948
+INFO  [AWT-EventQueue-0] 2016-07-05 09:30:16,594 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-07-05 09:30:16,601 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
+	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-4] 2016-07-05 09:30:27,672 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost1216237197982589575.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467707423340 ...
+INFO  [SwingWorker-pool-2-thread-4] 2016-07-05 09:30:27,763 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-4] 2016-07-05 09:30:27,763 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0737
+INFO  [SwingWorker-pool-2-thread-4] 2016-07-05 09:30:27,763 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467707423340\Elizabeth_localhost1216237197982589575.zip
+INFO  [SwingWorker-pool-2-thread-4] 2016-07-05 09:30:29,956 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-6-thread-1] 2016-07-05 09:31:29,957 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467707423340 for DONE:  no
+INFO  [pool-6-thread-1] 2016-07-05 09:32:29,958 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467707423340 for DONE:  no
+INFO  [pool-6-thread-1] 2016-07-05 09:33:29,959 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467707423340 for DONE:  no
+INFO  [pool-6-thread-1] 2016-07-05 09:34:29,960 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467707423340 for DONE:  no
+INFO  [pool-6-thread-1] 2016-07-05 09:35:29,961 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467707423340 for DONE:  no
+INFO  [pool-6-thread-1] 2016-07-05 09:36:29,962 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467707423340 for DONE:  no
+INFO  [pool-6-thread-1] 2016-07-05 09:37:29,963 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467707423340 for DONE:  no
+INFO  [pool-6-thread-1] 2016-07-05 09:38:29,963 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467707423340 for DONE:  no
+INFO  [pool-6-thread-1] 2016-07-05 09:39:29,964 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467707423340 for DONE:  no
+INFO  [pool-6-thread-1] 2016-07-05 09:40:29,965 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467707423340 for DONE:  no
+INFO  [pool-6-thread-1] 2016-07-05 09:41:29,966 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467707423340 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-4] 2016-07-05 09:41:29,967 repast.simphony.batch.ssh.SessionsDriver - Run Time: 11.0367
+INFO  [SwingWorker-pool-2-thread-4] 2016-07-05 09:41:29,972 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467707423340
+INFO  [SwingWorker-pool-2-thread-4] 2016-07-05 09:41:29,978 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-4] 2016-07-05 09:41:30,061 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0016
+INFO  [SwingWorker-pool-2-thread-4] 2016-07-05 09:41:30,062 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 11.1124
+INFO  [AWT-EventQueue-0] 2016-07-05 09:43:18,541 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-07-05 09:43:18,548 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
+	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-5] 2016-07-05 09:43:29,390 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost168627597999336674.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708205181 ...
+INFO  [SwingWorker-pool-2-thread-5] 2016-07-05 09:43:29,428 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-5] 2016-07-05 09:43:29,428 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0708
+INFO  [SwingWorker-pool-2-thread-5] 2016-07-05 09:43:29,429 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708205181\Elizabeth_localhost168627597999336674.zip
+INFO  [SwingWorker-pool-2-thread-5] 2016-07-05 09:43:30,952 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-7-thread-1] 2016-07-05 09:44:30,953 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708205181 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-5] 2016-07-05 09:44:30,954 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1.0254
+INFO  [SwingWorker-pool-2-thread-5] 2016-07-05 09:44:30,959 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708205181
+INFO  [SwingWorker-pool-2-thread-5] 2016-07-05 09:44:30,962 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-5] 2016-07-05 09:44:30,981 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0005
+INFO  [SwingWorker-pool-2-thread-5] 2016-07-05 09:44:30,982 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1.0970
+INFO  [AWT-EventQueue-0] 2016-07-05 09:49:16,720 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-07-05 09:49:16,726 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
+	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-6] 2016-07-05 09:49:27,743 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost6761670944313689227.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708563627 ...
+INFO  [SwingWorker-pool-2-thread-6] 2016-07-05 09:49:27,781 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-6] 2016-07-05 09:49:27,781 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0692
+INFO  [SwingWorker-pool-2-thread-6] 2016-07-05 09:49:27,781 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708563627\Elizabeth_localhost6761670944313689227.zip
+INFO  [SwingWorker-pool-2-thread-6] 2016-07-05 09:49:29,292 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-8-thread-1] 2016-07-05 09:50:29,293 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708563627 for DONE:  no
+INFO  [pool-8-thread-1] 2016-07-05 09:51:29,294 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708563627 for DONE:  no
+INFO  [pool-8-thread-1] 2016-07-05 09:52:29,295 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708563627 for DONE:  no
+INFO  [pool-8-thread-1] 2016-07-05 09:53:29,296 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708563627 for DONE:  no
+INFO  [pool-8-thread-1] 2016-07-05 09:54:29,296 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708563627 for DONE:  no
+INFO  [pool-8-thread-1] 2016-07-05 09:55:29,297 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708563627 for DONE:  no
+INFO  [pool-8-thread-1] 2016-07-05 09:56:29,298 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708563627 for DONE:  no
+INFO  [pool-8-thread-1] 2016-07-05 09:57:29,299 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708563627 for DONE:  no
+INFO  [pool-8-thread-1] 2016-07-05 09:58:29,300 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708563627 for DONE:  no
+INFO  [pool-8-thread-1] 2016-07-05 09:59:29,300 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708563627 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-6] 2016-07-05 09:59:29,301 repast.simphony.batch.ssh.SessionsDriver - Run Time: 10.0253
+INFO  [SwingWorker-pool-2-thread-6] 2016-07-05 09:59:29,306 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467708563627
+INFO  [SwingWorker-pool-2-thread-6] 2016-07-05 09:59:29,309 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-6] 2016-07-05 09:59:29,383 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0014
+INFO  [SwingWorker-pool-2-thread-6] 2016-07-05 09:59:29,384 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 10.0982
+INFO  [AWT-EventQueue-0] 2016-07-05 10:07:32,475 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-07-05 10:07:32,482 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
+	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-7] 2016-07-05 10:07:55,199 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost2158251024771755704.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467709670880 ...
+INFO  [SwingWorker-pool-2-thread-7] 2016-07-05 10:07:55,235 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-7] 2016-07-05 10:07:55,235 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0726
+INFO  [SwingWorker-pool-2-thread-7] 2016-07-05 10:07:55,235 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467709670880\Elizabeth_localhost2158251024771755704.zip
+INFO  [SwingWorker-pool-2-thread-7] 2016-07-05 10:07:56,485 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-9-thread-1] 2016-07-05 10:08:56,486 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467709670880 for DONE:  no
+INFO  [pool-9-thread-1] 2016-07-05 10:09:56,487 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467709670880 for DONE:  no
+INFO  [pool-9-thread-1] 2016-07-05 10:10:56,488 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467709670880 for DONE:  no
+INFO  [pool-9-thread-1] 2016-07-05 10:11:56,488 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467709670880 for DONE:  no
+INFO  [pool-9-thread-1] 2016-07-05 10:12:56,489 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467709670880 for DONE:  no
+INFO  [pool-9-thread-1] 2016-07-05 10:13:56,490 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467709670880 for DONE:  no
+INFO  [pool-9-thread-1] 2016-07-05 10:14:56,491 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467709670880 for DONE:  no
+INFO  [pool-9-thread-1] 2016-07-05 10:15:56,491 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467709670880 for DONE:  no
+INFO  [pool-9-thread-1] 2016-07-05 10:16:56,492 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467709670880 for DONE:  no
+INFO  [pool-9-thread-1] 2016-07-05 10:17:56,493 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467709670880 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-7] 2016-07-05 10:17:56,493 repast.simphony.batch.ssh.SessionsDriver - Run Time: 10.0210
+INFO  [SwingWorker-pool-2-thread-7] 2016-07-05 10:17:56,499 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467709670880
+INFO  [SwingWorker-pool-2-thread-7] 2016-07-05 10:17:56,505 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-7] 2016-07-05 10:17:56,589 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0016
+INFO  [SwingWorker-pool-2-thread-7] 2016-07-05 10:17:56,589 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 10.0964
+INFO  [AWT-EventQueue-0] 2016-07-05 10:31:55,793 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-07-05 10:31:55,799 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
+	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-8] 2016-07-05 10:32:11,813 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost1929955338628269618.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467711127726 ...
+INFO  [SwingWorker-pool-2-thread-8] 2016-07-05 10:32:11,848 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-8] 2016-07-05 10:32:11,849 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0687
+INFO  [SwingWorker-pool-2-thread-8] 2016-07-05 10:32:11,849 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467711127726\Elizabeth_localhost1929955338628269618.zip
+INFO  [SwingWorker-pool-2-thread-8] 2016-07-05 10:32:13,443 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-10-thread-1] 2016-07-05 10:33:13,444 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467711127726 for DONE:  no
+INFO  [pool-10-thread-1] 2016-07-05 10:34:13,445 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467711127726 for DONE:  no
+INFO  [pool-10-thread-1] 2016-07-05 10:35:13,446 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467711127726 for DONE:  no
+INFO  [pool-10-thread-1] 2016-07-05 10:36:13,447 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467711127726 for DONE:  no
+INFO  [pool-10-thread-1] 2016-07-05 10:37:13,448 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467711127726 for DONE:  no
+INFO  [pool-10-thread-1] 2016-07-05 10:38:13,448 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467711127726 for DONE:  no
+INFO  [pool-10-thread-1] 2016-07-05 10:39:13,449 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467711127726 for DONE:  no
+INFO  [pool-10-thread-1] 2016-07-05 10:40:13,450 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467711127726 for DONE:  no
+INFO  [pool-10-thread-1] 2016-07-05 10:41:13,450 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467711127726 for DONE:  no
+INFO  [pool-10-thread-1] 2016-07-05 10:42:13,451 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467711127726 for DONE:  no
+INFO  [pool-10-thread-1] 2016-07-05 10:43:13,452 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467711127726 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-8] 2016-07-05 10:43:13,453 repast.simphony.batch.ssh.SessionsDriver - Run Time: 11.0267
+INFO  [SwingWorker-pool-2-thread-8] 2016-07-05 10:43:13,460 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467711127726
+INFO  [SwingWorker-pool-2-thread-8] 2016-07-05 10:43:13,467 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-8] 2016-07-05 10:43:13,545 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0015
+INFO  [SwingWorker-pool-2-thread-8] 2016-07-05 10:43:13,545 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 11.0974
+INFO  [AWT-EventQueue-0] 2016-07-05 10:50:50,751 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-07-05 10:50:50,759 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
+	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-9] 2016-07-05 10:51:01,503 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost4051579889688154949.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467712257429 ...
+INFO  [SwingWorker-pool-2-thread-9] 2016-07-05 10:51:01,540 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-9] 2016-07-05 10:51:01,540 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0685
+INFO  [SwingWorker-pool-2-thread-9] 2016-07-05 10:51:01,541 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467712257429\Elizabeth_localhost4051579889688154949.zip
+INFO  [SwingWorker-pool-2-thread-9] 2016-07-05 10:51:02,814 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-11-thread-1] 2016-07-05 10:52:02,814 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467712257429 for DONE:  no
+INFO  [pool-11-thread-1] 2016-07-05 10:53:02,815 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467712257429 for DONE:  no
+INFO  [pool-11-thread-1] 2016-07-05 10:54:02,816 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467712257429 for DONE:  no
+INFO  [pool-11-thread-1] 2016-07-05 10:55:02,817 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467712257429 for DONE:  no
+INFO  [pool-11-thread-1] 2016-07-05 10:56:02,818 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467712257429 for DONE:  no
+INFO  [pool-11-thread-1] 2016-07-05 10:57:02,818 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467712257429 for DONE:  no
+INFO  [pool-11-thread-1] 2016-07-05 10:58:02,819 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467712257429 for DONE:  no
+INFO  [pool-11-thread-1] 2016-07-05 10:59:02,819 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467712257429 for DONE:  no
+INFO  [pool-11-thread-1] 2016-07-05 11:00:02,819 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467712257429 for DONE:  no
+INFO  [pool-11-thread-1] 2016-07-05 11:01:02,820 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467712257429 for DONE:  no
+INFO  [pool-11-thread-1] 2016-07-05 11:02:02,820 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467712257429 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-9] 2016-07-05 11:02:02,821 repast.simphony.batch.ssh.SessionsDriver - Run Time: 11.0213
+INFO  [SwingWorker-pool-2-thread-9] 2016-07-05 11:02:02,827 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467712257429
+INFO  [SwingWorker-pool-2-thread-9] 2016-07-05 11:02:02,830 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-9] 2016-07-05 11:02:02,895 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0012
+INFO  [SwingWorker-pool-2-thread-9] 2016-07-05 11:02:02,896 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 11.0917
+INFO  [AWT-EventQueue-0] 2016-07-05 11:07:43,400 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-07-05 11:07:43,529 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
+	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:07:55,134 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost7302547745874650016.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467713270955 ...
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:07:55,191 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:07:55,192 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0706
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:07:55,192 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467713270955\Elizabeth_localhost7302547745874650016.zip
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:07:56,553 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-3-thread-1] 2016-07-05 11:08:56,559 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467713270955 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 11:09:56,560 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467713270955 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 11:10:56,561 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467713270955 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:10:56,562 repast.simphony.batch.ssh.SessionsDriver - Run Time: 3.0228
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:10:56,582 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467713270955
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:10:56,593 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:10:56,607 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0008
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:10:56,607 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 3.0945
+INFO  [AWT-EventQueue-0] 2016-07-05 11:24:16,279 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-07-05 11:24:16,404 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
+	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:24:28,150 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost894387026482962022.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467714264086 ...
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:24:28,186 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:24:28,187 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0683
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:24:28,187 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467714264086\Elizabeth_localhost894387026482962022.zip
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:24:29,315 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-3-thread-1] 2016-07-05 11:25:29,321 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467714264086 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 11:26:29,322 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467714264086 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 11:27:29,323 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467714264086 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:27:29,324 repast.simphony.batch.ssh.SessionsDriver - Run Time: 3.0189
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:27:29,343 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467714264086
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:27:29,355 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:27:29,371 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0008
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:27:29,371 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 3.0884
+INFO  [AWT-EventQueue-0] 2016-07-05 11:37:23,802 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\output\config.props
+INFO  [AWT-EventQueue-0] 2016-07-05 11:37:23,949 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	C:\Users\Elizabeth\git\plantInsectPolyculture\PlantsInsects\batch\batch_params.xml to
+	C:\Users\ELIZAB~2\AppData\Local\Temp\unrolledParamFile.txt
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:37:35,179 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally C:\Users\ELIZAB~2\AppData\Local\Temp\Elizabeth_localhost1356622246544100132.zip to 
+C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467715051059 ...
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:37:35,260 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:37:35,261 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0.0700
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:37:35,261 repast.simphony.batch.ssh.LocalSession - Unzipping model C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467715051059\Elizabeth_localhost1356622246544100132.zip
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:37:36,497 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [pool-3-thread-1] 2016-07-05 11:38:36,505 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467715051059 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 11:39:36,505 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467715051059 for DONE:  no
+INFO  [pool-3-thread-1] 2016-07-05 11:40:36,506 repast.simphony.batch.ssh.LocalDonePoller - Polled C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467715051059 for DONE:  yes
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:40:36,506 repast.simphony.batch.ssh.SessionsDriver - Run Time: 3.0207
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:40:36,527 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in C:\Users\ELIZAB~2\AppData\Local\Temp\simphony_model_1467715051059
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:40:36,540 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into C:/Users/Elizabeth/git/plantInsectPolyculture/PlantsInsects/output
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:40:36,555 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0.0008
+INFO  [SwingWorker-pool-2-thread-1] 2016-07-05 11:40:36,555 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 3.0918

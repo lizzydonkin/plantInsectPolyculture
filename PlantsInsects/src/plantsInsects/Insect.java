@@ -24,6 +24,7 @@ public class Insect {
 	private ArrayList<Plant> visitedPlants;
 	private final InsectParams speciesParams;
 	private int age;
+	// adding in new parameters
 	private String lastPlantType;
 	private boolean hopped;
 	private boolean moved;
