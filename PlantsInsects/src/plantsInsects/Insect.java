@@ -25,6 +25,7 @@ public class Insect {
 	private final InsectParams speciesParams;
 	private int age;
 	// adding in new parameters
+	//creating new branch test
 	private String lastPlantType;
 	private boolean hopped;
 	private boolean moved;
