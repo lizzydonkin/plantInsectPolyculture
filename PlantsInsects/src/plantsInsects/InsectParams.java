@@ -28,6 +28,8 @@ public class InsectParams {
 	private int fromCroptoTrap;
 	private int fromCroptoCrop;
 	private int fromTraptoTrap;
+	private double weight; // new additions
+	private String devStage; //new additions
 	
 	public InsectParams(
 			String insectId, 
@@ -39,6 +41,8 @@ public class InsectParams {
 			int maxFlightLength,
 			double migrationOutRate,
 			double migrationInRate,
+			//double weight, // new addition
+			//String devStage,
 			Color col)
 	 {
 		this.insectId = insectId;
@@ -74,6 +78,8 @@ public class InsectParams {
 		this.fromCroptoTrap = 0;
 		this.fromCroptoTrap = 0;
 		this.fromTraptoTrap = 0;
+		//this.weight = 0; // new addition check this against paper
+		//this.devStage = "adult"; // new addition 
 	}
 
 	public String getInsectId() {

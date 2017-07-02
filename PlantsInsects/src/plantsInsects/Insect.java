@@ -24,9 +24,6 @@ public class Insect {
 	private ArrayList<Plant> visitedPlants;
 	private final InsectParams speciesParams;
 	private int age;
-	// adding in new parameters
-	//creating new branch test
-	//second branch test
 	private String lastPlantType;
 	private boolean hopped;
 	private boolean moved;
@@ -39,6 +36,7 @@ public class Insect {
 		visitedPlants = new ArrayList<Plant>();
 		speciesParams = params;
 		age = 0;
+		//devStage = "adult";
 		//lastPlantType = "";
 		hopped = false;
 		moved = false;
@@ -55,6 +53,7 @@ public class Insect {
 			killInsect();
 			return;
 		}
+		
 		lastPlantType = getLastPlant();
 		GridPoint thisPoint = grid.getLocation(this);
 		int thisX = thisPoint.getX();
@@ -511,4 +510,47 @@ public class Insect {
 	public InsectParams getSpeciesParams() {
 		return speciesParams;
 	}
+	
+	public double layEggs() {
+		boolean layEggs =false;
+		int clutchSize = 0;
+		double chanceOfEggs = 0.7; // should put this as a separate parameter;
+		if(RandomHelper.nextDoubleFromTo(0,1)> chanceOfEggs){
+			clutchSize = RandomHelper.nextIntFromTo(1, 20); //check this
+		}
+		else {
+			clutchSize = 0;
+		}
+		
+		return clutchSize;	
+	}
+		/*boolean possLayEggs = false;
+				
+		
+		double high_temp = 29;
+		double low_temp = 10;
+		double temp = RandomHelper.nextDoubleFromTo(low_temp, high_temp);
+		double low_rain = 100;
+		double high_rain = 500;
+		double rain = RandomHelper.nextDoubleFromTo(low_rain, high_rain);
+		double optimal_temp_low = 10;
+		double optimal_temp_high = 28;
+		double optimal_rain_low = 130;
+		double optimal_rain_high = 400;
+		
+		if( temp >= optimal_temp_low && temp <= optimal_temp_high){
+			possLayEggs = true;
+		} 
+		else {possLayEggs = false;
+		}
+		if (possLayEggs = true){*/
+		
+		
+		
+		
+	// get temp, get rainfall, if within limits then could lay eggs
+	// random clutch size- could be based on slug weight
+	// then extra probability of laying eggs - to add stochasticity
 }
+
+
