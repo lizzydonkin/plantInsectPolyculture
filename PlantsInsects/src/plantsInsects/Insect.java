@@ -29,6 +29,8 @@ public class Insect {
 	private boolean moved;
 	private boolean dead;
 	private double emigrationProb;
+	private int temp;
+	private int rainfall;
 	
 
 	public Insect(InsectParams params, Context<Object> context) { 
@@ -42,18 +44,35 @@ public class Insect {
 		moved = false;
 		dead = false;
 		emigrationProb = speciesParams.getMigrationOutRate();
+		temp = 0;
+		rainfall = 0;
 	}
 
-	@ScheduledMethod(start = 1, interval = 1, priority = 2)
+	@ScheduledMethod(start = 1, interval = 1, priority = 0)
 	public void step() {
-		
 		Context<Object> context = ContextUtils.getContext(this);
 		double chanceOfMort = 1 - (age * speciesParams.getMortalityRate());	
 		if(RandomHelper.nextDoubleFromTo(0, 1) > chanceOfMort) { // daily mortality is age dependent
 			killInsect();
 			return;
 		}
+		double ThisTick = RunEnvironment.getInstance().getCurrentSchedule().getTickCount();
+		System.out.println(ThisTick);
 		
+		double t = Climate.getTemp();
+		System.out.println("t= " + t);
+		double r = Climate.getRain();
+		System.out.println("r= " + r);
+		/*temp = getTemp();
+		rainfall = getRainfall();
+		
+		
+		
+		System.out.println(temp);
+		System.out.println(rainfall);
+		*/
+		// layEggs
+
 		lastPlantType = getLastPlant();
 		GridPoint thisPoint = grid.getLocation(this);
 		int thisX = thisPoint.getX();
@@ -83,6 +102,16 @@ public class Insect {
 		plant.updateMigrationRate();
 		insectUpdateEmigrationRate();
 		age++;//   increase age of insects by 1
+	}
+	
+	public int getTemp(){
+		int temperature = RandomHelper.nextIntFromTo(13, 25);
+		return temperature;
+	}
+	
+	public int getRainfall(){
+		int rainfalling = RandomHelper.nextIntFromTo(200,300);
+		return rainfalling;
 	}
 	
 	public void checkPopSize(){

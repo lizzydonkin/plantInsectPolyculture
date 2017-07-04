@@ -14,6 +14,7 @@ import repast.simphony.context.Context;
 import repast.simphony.context.space.grid.GridFactory;
 import repast.simphony.context.space.grid.GridFactoryFinder;
 import repast.simphony.dataLoader.ContextBuilder;
+import repast.simphony.engine.schedule.ScheduledMethod;
 import repast.simphony.random.RandomHelper;
 import repast.simphony.space.grid.Grid;
 import repast.simphony.space.grid.GridBuilderParameters;
@@ -24,7 +25,7 @@ import repast.simphony.ui.RSApplication;
 
 public class PlantInsectBuilder implements ContextBuilder<Object> {
 
-	private Context<Object> currentContext;
+	private Context currentContext;
 
 	public PlantInsectBuilder() {
 		try {
@@ -61,6 +62,7 @@ public class PlantInsectBuilder implements ContextBuilder<Object> {
 
 	@Override
 	public Context build(Context<Object> context) {
+	    //ClimateContext ccontext = new ClimateContext();  
 		context.setId("PlantsInsects");
 
 		ParameterSerializationHelper helper = new ParameterSerializationHelper();
@@ -113,6 +115,9 @@ public class PlantInsectBuilder implements ContextBuilder<Object> {
 			plantParams.get(i).setCount(plantPoints.size());
 		}
 		// System.out.println(plants.size());
+		
+		Climate clim = new Climate(context); // new addition
+		context.add(clim);
 
 		for (InsectParams insParams : insectParams) {
 			for (int i = 0; i < insParams.getInitialCount(); i++) {
@@ -168,9 +173,16 @@ public class PlantInsectBuilder implements ContextBuilder<Object> {
 			context.add(insParams);
 		}
 
+		//ClimateContext = context;
 		currentContext = context;
 		return context;
 	}
+	
+	//@ScheduledMethod(start = 1,interval = 1, priority = 2)
+	//public  void  step() {
+	//    currentContext.updateTemp(57);
+	//}
+
 
 	private ArrayList<GridPoint> getPlantPoints(double plantPerc,
 			EnvironmentParams envParams, ArrayList<GridPoint> occupied) {
