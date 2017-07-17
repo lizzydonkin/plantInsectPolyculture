@@ -69,6 +69,7 @@ public class ModelUserPanel extends JPanel implements ActionListener {
 	private JSpinner gridSizeSpinner;
 	private JSpinner plantCountSpinner;
 	private JComboBox plantDistCombo;
+	private JSpinner rowNumSpinner; // ROW NUMBER METHODOLOGY
 	private JSpinner insectCountSpinner;
 
 	private ArrayList<PlantParamsPanel> plantPanels;
@@ -154,12 +155,30 @@ public class ModelUserPanel extends JPanel implements ActionListener {
 		gbc_plantDistCombo.gridy = 2;
 		envPanel.add(plantDistCombo, gbc_plantDistCombo);
 
+		JLabel lblRowNum = new JLabel("Number of visual rows");
+		GridBagConstraints gbc_lblRowNum = new GridBagConstraints();
+		gbc_lblRowNum.anchor = GridBagConstraints.EAST;
+		gbc_lblRowNum.insets = new Insets(0, 0, 5, 5);
+		gbc_lblRowNum.gridx = 0;
+		gbc_lblRowNum.gridy = 3;
+		envPanel.add(lblRowNum, gbc_lblRowNum);
+
+		rowNumSpinner = new JSpinner();
+		rowNumSpinner.setToolTipText("The number of visual rows per plant");
+		plantCountSpinner.setModel(new SpinnerNumberModel(5, 0, 100, 1));
+		GridBagConstraints gbc_spinnerRowNum = new GridBagConstraints();
+		gbc_spinnerRowNum.fill = GridBagConstraints.HORIZONTAL;
+		gbc_spinnerRowNum.insets = new Insets(0, 0, 5, 0);
+		gbc_spinnerRowNum.gridx = 1;
+		gbc_spinnerRowNum.gridy = 3;
+		envPanel.add(rowNumSpinner, gbc_spinnerRowNum);
+
 		JLabel lblInsectSpeciesCount = new JLabel("Insect Species Count");
 		GridBagConstraints gbc_lblInsectSpeciesCount = new GridBagConstraints();
 		gbc_lblInsectSpeciesCount.anchor = GridBagConstraints.EAST;
 		gbc_lblInsectSpeciesCount.insets = new Insets(0, 0, 5, 5);
 		gbc_lblInsectSpeciesCount.gridx = 0;
-		gbc_lblInsectSpeciesCount.gridy = 3;
+		gbc_lblInsectSpeciesCount.gridy = 4;
 		envPanel.add(lblInsectSpeciesCount, gbc_lblInsectSpeciesCount);
 
 		insectCountSpinner = new JSpinner();
@@ -170,7 +189,7 @@ public class ModelUserPanel extends JPanel implements ActionListener {
 		gbc_spinnerInsectNum.fill = GridBagConstraints.HORIZONTAL;
 		gbc_spinnerInsectNum.insets = new Insets(0, 0, 5, 0);
 		gbc_spinnerInsectNum.gridx = 1;
-		gbc_spinnerInsectNum.gridy = 3;
+		gbc_spinnerInsectNum.gridy = 4;
 		envPanel.add(insectCountSpinner, gbc_spinnerInsectNum);
 		setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 		
@@ -244,7 +263,7 @@ public class ModelUserPanel extends JPanel implements ActionListener {
 		envParams = new EnvironmentParams((int) gridSizeSpinner.getValue(),
 				(int) insectCountSpinner.getValue(),
 				(int) plantCountSpinner.getValue(),
-				(PlantSpacialDistribution) plantDistCombo.getSelectedItem());
+				(PlantSpacialDistribution) plantDistCombo.getSelectedItem(), (int) rowNumSpinner.getValue());
 		return envParams;
 	}
 
@@ -254,6 +273,7 @@ public class ModelUserPanel extends JPanel implements ActionListener {
 		gridSizeSpinner.setValue(env.getGridSize());
 		plantCountSpinner.setValue(env.getNumPlants());
 		plantDistCombo.setSelectedItem(env.getDistribution());
+		rowNumSpinner.setValue(env.getRowNum());
 		insectCountSpinner.setValue(env.getNumInsects());
 	}
 

@@ -62,7 +62,6 @@ public class PlantInsectBuilder implements ContextBuilder<Object> {
 
 	@Override
 	public Context build(Context<Object> context) {
-	    //ClimateContext ccontext = new ClimateContext();  
 		context.setId("PlantsInsects");
 
 		ParameterSerializationHelper helper = new ParameterSerializationHelper();
@@ -207,8 +206,6 @@ public class PlantInsectBuilder implements ContextBuilder<Object> {
 			break;
 		case Blocks:
 			result = getBlockPlantPoints(envParams.getGridSize(), plantPerc, occupied);
-		/*	result = getBlockPlantPoints(envParams.getGridSize(), plantPerc,
-					occupied);*/
 		default:
 			break;
 		}
@@ -278,10 +275,11 @@ public class PlantInsectBuilder implements ContextBuilder<Object> {
 	private ArrayList<GridPoint> getRowPlantPoints(int gridSize,
 			double plantPerc, ArrayList<GridPoint> occupied) {
 		ArrayList<GridPoint> result = new ArrayList<GridPoint>();
-
-		final int VISUAL_ROW_COUNT = 5; // was 8 eld
-
-		int rowDistance = Math.max(4, gridSize / VISUAL_ROW_COUNT);
+		
+		final int VISUAL_ROW_COUNT = EnvironmentParams.getRowNum();//51; //5
+		//System.out.println(VISUAL_ROW_COUNT);
+		int rowDistance = Math.max(4, gridSize / VISUAL_ROW_COUNT);// 4
+		//System.out.println("THIS IS ROW NUM: " + rowDistance);
 		// int plantsPerVisualRow = Math.max(1, plantCount / VISUAL_ROW_COUNT);
 		int actualRowsPerVisualRow = (int) Math.round(rowDistance * plantPerc);// (int)
 																				// Math.round(Math.max(1.0,

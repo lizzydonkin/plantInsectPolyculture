@@ -60,9 +60,9 @@ public class Insect {
 		System.out.println(ThisTick);
 		
 		double t = Climate.getTemp();
-		System.out.println("t= " + t);
+		//System.out.println("t= " + t);
 		double r = Climate.getRain();
-		System.out.println("r= " + r);
+		//System.out.println("r= " + r);
 		/*temp = getTemp();
 		rainfall = getRainfall();
 		
