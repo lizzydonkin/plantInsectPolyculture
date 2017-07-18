@@ -278,7 +278,7 @@ public class PlantInsectBuilder implements ContextBuilder<Object> {
 		
 		final int VISUAL_ROW_COUNT = EnvironmentParams.getRowNum();//51; //5
 		//System.out.println(VISUAL_ROW_COUNT);
-		int rowDistance = Math.max(4, gridSize / VISUAL_ROW_COUNT);// 4
+		int rowDistance = Math.max(2, gridSize / VISUAL_ROW_COUNT);// 4
 		//System.out.println("THIS IS ROW NUM: " + rowDistance);
 		// int plantsPerVisualRow = Math.max(1, plantCount / VISUAL_ROW_COUNT);
 		int actualRowsPerVisualRow = (int) Math.round(rowDistance * plantPerc);// (int)

@@ -285,9 +285,9 @@ public class ParameterSerializationHelper {
 				} catch (IllegalArgumentException e) {
 					dist = PlantSpacialDistribution.Random;
 				}
-				int rowNumber = (Integer) params.getValue("rowNum");
+				int rowNum = (Integer) params.getValue("rowNum");
 				return new EnvironmentParams(gridSize, insCount,
-						plantCount, dist, rowNumber); 
+						plantCount, dist, rowNum); 
 			}
 		}
 	}

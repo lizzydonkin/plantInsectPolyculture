@@ -48,6 +48,12 @@
 						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
 									
 		/>
+				<parameter name="rowNum" displayName="Number of visual rows per plant sp" type="int" 
+						defaultValue="5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+									
+		/>
 				<parameter name="p__migrationRate" displayName="p__migrationRate" type="java.lang.Double" 
 						defaultValue="0.05" 
 						isReadOnly="false" 
