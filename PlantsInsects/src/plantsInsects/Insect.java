@@ -7,6 +7,7 @@ import java.util.List;
 import java.awt.Paint;
 import java.awt.Stroke;
 
+import plantsInsects.enums.InsectSensoryMode;
 import repast.simphony.context.Context;
 import repast.simphony.engine.environment.RunEnvironment;
 import repast.simphony.engine.schedule.ScheduledMethod;
@@ -69,10 +70,13 @@ public class Insect {
 		int thisX = thisPoint.getX();
 		int thisY = thisPoint.getY();
 		Plant thisPlant = getPlantAt(thisX,thisY); // the current plant 
-		if (moved == true){ // if the insect has moved, check emmigration 
-		emigration(thisPlant);} // emigration only happens if the insect makes a flight
-		repellentEncounters(thisPlant); //emigration from encountering repellent plants can happen regardless
-		 //killing insects that have visited normal or deterrent plants and have emigrated
+		InsectSensoryMode thisSensoryMode = speciesParams.getSensoryMode();
+		if (thisSensoryMode != InsectSensoryMode.Slug){
+			if (moved == true){ // if the insect has moved, check emmigration 
+			emigration(thisPlant);} // emigration only happens if the insect makes a flight
+			repellentEncounters(thisPlant); //emigration from encountering repellent plants can happen regardless
+			 //killing insects that have visited normal or deterrent plants and have emigrated
+		}
 		if (dead == true) {
 			killInsect();
 			return;
@@ -223,40 +227,49 @@ public class Insect {
 		Plant currentPlant = getPlantAt(x,y);
 		Plant plant = null;		
 		double fChance = currentPlant.getSpeciesParams().getFlightChance();
-		if (RandomHelper.nextDoubleFromTo(0,1) < fChance){ // the probability of an insect performing a foraging flight is dependent on the flight probability of the plant
-			hopped = false;
-			switch (speciesParams.getSensoryMode()) {
-			case Visual:
-				plant = getNextPlantVisual(insPoint);
-				break;
-			case Olfactory:
-				plant =  getNextPlantOlfactory();
-				break;
-			case Contact:
-				plant = getNextPlantContact();
-				break;
-			case Slug:
-				plant = getNextPlantSlug();
-				break;
-			default:
-				break;
-			}
-			return plant;
-		}
-		else {
-			if (RandomHelper.nextDoubleFromTo(0,1) <= 0.5){ // if the insect doesn't fly it has a 50/50 chance of staying where it is or hopping to an adjacent plant
+		InsectSensoryMode senseMode = speciesParams.getSensoryMode(); 
+		if (senseMode != InsectSensoryMode.Slug){
+		//System.out.println("sensory mode= " + senseMode + " " + senseMode.getClass().getSimpleName());
+			if (RandomHelper.nextDoubleFromTo(0,1) < fChance){ // the probability of an insect performing a foraging flight is dependent on the flight probability of the plant
 				hopped = false;
-				return currentPlant;
-				
+				switch (speciesParams.getSensoryMode()) {
+				case Visual:
+					plant = getNextPlantVisual(insPoint);
+					break;
+				case Olfactory:
+					plant =  getNextPlantOlfactory();
+					break;
+				case Contact:
+					plant = getNextPlantContact();
+					break;
+				/*case Slug:
+					plant = getNextPlantSlug();
+					break;*/
+				default:
+					break;
+				}
+				return plant;
 			}
 			else {
-		    plant = getNeighbourPlant();
-		    hopped = true; 
-		    return plant;
-		    
+				if (RandomHelper.nextDoubleFromTo(0,1) <= 0.5){ // if the insect doesn't fly it has a 50/50 chance of staying where it is or hopping to an adjacent plant
+					hopped = false;
+					return currentPlant;
+					
+				}
+				else {
+			    plant = getNeighbourPlant();
+			    hopped = true; 
+			    return plant;
+			    
+				}
 			}
 		}
-	}
+		else {
+			System.out.println("Separate slug methods");
+			plant = getNextPlantSlug();
+			return plant;
+		}
+	} // getNextPlant()
 	
 	private Plant getNeighbourPlant(){
 			GridCellNgh<Plant> nghCreator = new GridCellNgh<Plant>(grid,
@@ -488,19 +501,44 @@ public class Insect {
 	
 	public Plant getNextPlantSlug(){
 		Plant p = null;
-		double lowestFlightChance = getLowestFlightChance();
-		//System.out.println("lowest flight chance = " + lowestFlightChance); // find the most palatable plant flight prob in the population
+		double lowestFlightChance = getLowestFlightChance(); // find the most palatable plant flight prob in the population
+		//System.out.println("lowest flight chance = " + lowestFlightChance); 
 		// get the current plant flight chance
 		GridPoint insPoint = grid.getLocation(this);
 		int x = insPoint.getX();
 		int y = insPoint.getY();
 		Plant thisPlant = getPlantAt(x,y);
 		double thisFlightChance = thisPlant.getSpeciesParams().getFlightChance();
-		//System.out.println("this flight chance = " + thisFlightChance);	
-		int newX = RandomHelper.nextIntFromTo(1, 100);
-		int newY = RandomHelper.nextIntFromTo(1, 100);
-		p = getPlantAt(newX,newY);
-		return p;
+		double chanceOfLocalSearch = (1- thisFlightChance);
+		//System.out.println("chance of local search= " + chanceOfLocalSearch);
+		if(chanceOfLocalSearch > RandomHelper.nextDoubleFromTo(0,1) ){
+			p = getNeighbourPlant();
+			//System.out.println("Hopping to: " + p);
+		}
+		else{
+			//distance max flight length
+		int moveLength = speciesParams.getMaxFlightLength();
+		int radius = RandomHelper.nextIntFromTo(1, moveLength);
+		GridCellNgh<Plant> nghCreator = new GridCellNgh<Plant>(grid, grid.getLocation(this), Plant.class,radius,radius);
+		List<GridCell<Plant>> gridCells = nghCreator.getNeighborhood(false);
+		SimUtilities .shuffle(gridCells, RandomHelper.getUniform());
+		p = null;
+		for (GridCell<Plant> cell : gridCells){
+			Plant current = cell.items().iterator().next();
+			if (!visitedPlants.contains(current)){
+				p = current;
+				//System.out.println("Moving to: " + p);
+				break;
+			}
+			else {
+				p = current;
+				//System.out.println("Moving to: " + p);
+				break;
+			}
+		}
+	}
+		//System.out.println("new plant= " + p);
+		return p;//System.out.println("this flight chance = " + thisFlightChance);	
 	}
 
 	public String getLastPlant(){
