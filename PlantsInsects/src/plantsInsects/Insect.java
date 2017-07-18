@@ -56,29 +56,20 @@ public class Insect {
 			killInsect();
 			return;
 		}
-		double ThisTick = RunEnvironment.getInstance().getCurrentSchedule().getTickCount();
-		System.out.println(ThisTick);
+		//double ThisTick = RunEnvironment.getInstance().getCurrentSchedule().getTickCount();
+		//System.out.println(ThisTick);
+		
+		// get the climate variables for the day
 		
 		double t = Climate.getTemp();
-		//System.out.println("t= " + t);
 		double r = Climate.getRain();
-		//System.out.println("r= " + r);
-		/*temp = getTemp();
-		rainfall = getRainfall();
-		
-		
-		
-		System.out.println(temp);
-		System.out.println(rainfall);
-		*/
-		// layEggs
 
-		lastPlantType = getLastPlant();
+		lastPlantType = getLastPlant(); // the previously visited plant
 		GridPoint thisPoint = grid.getLocation(this);
 		int thisX = thisPoint.getX();
 		int thisY = thisPoint.getY();
-		Plant thisPlant = getPlantAt(thisX,thisY);
-		if (moved == true){
+		Plant thisPlant = getPlantAt(thisX,thisY); // the current plant 
+		if (moved == true){ // if the insect has moved, check emmigration 
 		emigration(thisPlant);} // emigration only happens if the insect makes a flight
 		repellentEncounters(thisPlant); //emigration from encountering repellent plants can happen regardless
 		 //killing insects that have visited normal or deterrent plants and have emigrated
@@ -243,6 +234,9 @@ public class Insect {
 				break;
 			case Contact:
 				plant = getNextPlantContact();
+				break;
+			case Slug:
+				plant = getNextPlantSlug();
 				break;
 			default:
 				break;
@@ -491,6 +485,23 @@ public class Insect {
 		}
 		return plants;
 		}
+	
+	public Plant getNextPlantSlug(){
+		Plant p = null;
+		double lowestFlightChance = getLowestFlightChance();
+		//System.out.println("lowest flight chance = " + lowestFlightChance); // find the most palatable plant flight prob in the population
+		// get the current plant flight chance
+		GridPoint insPoint = grid.getLocation(this);
+		int x = insPoint.getX();
+		int y = insPoint.getY();
+		Plant thisPlant = getPlantAt(x,y);
+		double thisFlightChance = thisPlant.getSpeciesParams().getFlightChance();
+		//System.out.println("this flight chance = " + thisFlightChance);	
+		int newX = RandomHelper.nextIntFromTo(1, 100);
+		int newY = RandomHelper.nextIntFromTo(1, 100);
+		p = getPlantAt(newX,newY);
+		return p;
+	}
 
 	public String getLastPlant(){
 		GridPoint insPoint = grid.getLocation(this);

@@ -2,5 +2,5 @@ package plantsInsects.enums;
 
 public enum InsectSensoryMode {
 
-	Visual, Olfactory, Contact
+	Visual, Olfactory, Contact, Slug
 }
