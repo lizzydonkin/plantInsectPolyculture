@@ -1,0 +1,3 @@
+"tick","crop to crop","crop to trap","trap to crop","trap to trap"
+1.0,0.0,0.0,0.0,0.0
+2.0,0.0,1.0,0.0,0.0
