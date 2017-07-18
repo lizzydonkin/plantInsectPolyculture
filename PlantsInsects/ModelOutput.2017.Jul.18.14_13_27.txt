@@ -1,2 +1,0 @@
-"Count","tick","InsectId"
-1,1.0,""
