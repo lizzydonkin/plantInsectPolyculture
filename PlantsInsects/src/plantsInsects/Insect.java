@@ -265,7 +265,7 @@ public class Insect {
 			}
 		}
 		else {
-			System.out.println("Separate slug methods");
+			//System.out.println("Separate slug methods");
 			plant = getNextPlantSlug();
 			return plant;
 		}
