@@ -1,0 +1,47 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>spat_damage_plants</name>
+  <type>NON_AGGREGATE</type>
+  <sourceType>plantsInsects.Plant</sourceType>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>0.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>ONE_TIME</frequency>
+    <hashCode>-479310449</hashCode>
+  </scheduleParams>
+  <atEnd>true</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>DamageTaken</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>DamageTaken</id>
+        <className>plantsInsects.Plant</className>
+        <methodName>getDamageTaken</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>X</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>X</id>
+        <className>plantsInsects.Plant</className>
+        <methodName>getX</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Y</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Y</id>
+        <className>plantsInsects.Plant</className>
+        <methodName>getY</methodName>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>
