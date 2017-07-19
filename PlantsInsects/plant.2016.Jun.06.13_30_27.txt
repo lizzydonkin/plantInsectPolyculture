@@ -1,3 +1,0 @@
-"PlantId","TotalDamge","MaxDamage","tick"
-"",237,490000,1.0
-"",263,510000,1.0
