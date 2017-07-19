@@ -97,6 +97,7 @@ public class Insect {
 		plant.updateMigrationRate();
 		insectUpdateEmigrationRate();
 		age++;//   increase age of insects by 1
+		checkTickCount();
 	}
 	
 	public int getTemp(){

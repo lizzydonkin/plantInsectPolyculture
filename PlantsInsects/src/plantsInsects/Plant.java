@@ -10,16 +10,28 @@ public class Plant {
 	private Grid<Object> grid;
 	private int damageTaken;
 	private ArrayList <Insect> insects; 
+	private int x;
+	private int y;
 	private final PlantParams speciesParams;
 
 	public Plant(PlantParams params, Context<Object> context) {
 		grid = (Grid<Object>) context.getProjection("grid");
 		damageTaken = 0;
-		insects = new ArrayList<Insect>(); 
+		insects = new ArrayList<Insect>();
+		x = 0;
+		y = 0;
 		speciesParams = params;
 	}	
-	public GridPoint getXY(){ //get xy coordinates of the plants
-		return grid.getLocation(this);
+	public int getX(){ //get xy coordinates of the plants
+		GridPoint location =  grid.getLocation(this);
+		x = location.getX();
+		return x; 
+	}
+	
+	public int getY(){ //get xy coordinates of the plants
+		GridPoint location =  grid.getLocation(this);
+		y = location.getY();
+		return y; 
 	}
 	
 	public int getInsectCount() {

@@ -1,15 +1,14 @@
 <repast.simphony.data2.engine.FileSinkDescriptor>
-  <name>movement</name>
-  <dataSet>movement</dataSet>
+  <name>plantdata</name>
+  <dataSet>Plant Damage</dataSet>
   <delimiter>,</delimiter>
   <format>TABULAR</format>
   <sourceIds class="linked-hash-set">
+    <string>PlantId</string>
+    <string>TotalDamge</string>
+    <string>MaxDamage</string>
     <string>tick</string>
-    <string>crop to crop</string>
-    <string>crop to trap</string>
-    <string>trap to crop</string>
-    <string>trap to trap</string>
   </sourceIds>
-  <fileName>movement.txt</fileName>
+  <fileName>plant.txt</fileName>
   <addTimeStamp>true</addTimeStamp>
 </repast.simphony.data2.engine.FileSinkDescriptor>
