@@ -1,0 +1,1 @@
+"DamageTaken","X","Y","tick"

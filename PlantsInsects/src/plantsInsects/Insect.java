@@ -3,9 +3,12 @@ package plantsInsects;
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.awt.Paint;
 import java.awt.Stroke;
+
+import org.apache.commons.lang3.ArrayUtils;
 
 import plantsInsects.enums.InsectSensoryMode;
 import repast.simphony.context.Context;
@@ -512,13 +515,45 @@ public class Insect {
 		double thisFlightChance = thisPlant.getSpeciesParams().getFlightChance();
 		double chanceOfLocalSearch = (1- thisFlightChance);
 		//System.out.println("chance of local search= " + chanceOfLocalSearch);
-		if(chanceOfLocalSearch > RandomHelper.nextDoubleFromTo(0,1) ){
+		if(chanceOfLocalSearch > RandomHelper.nextDoubleFromTo(0,1) ){ // local search
 			p = getNeighbourPlant();
 			//System.out.println("Hopping to: " + p);
 		}
-		else{
+		else{ /// longer search, but can be arrested by palatable plants
 			//distance max flight length
-		int moveLength = speciesParams.getMaxFlightLength();
+			int flightLength = speciesParams.getMaxFlightLength(); //Flight length (and therefore search radius) is determined as a random number between 0 and the max flight length 
+			int radius = RandomHelper.nextIntFromTo(1, flightLength);
+			//System.out.println("This plan= " + thisPlant);
+			//System.out.println("FL= " + flightLength);
+			//System.out.println("R= " + radius);
+			ArrayList<Plant> plantsToAimFor = getPlantsAtRadius(radius); //Creates an array of the plants at the edge of the search radius
+			Plant chosen = plantsToAimFor.get(RandomHelper.nextIntFromTo(0,plantsToAimFor.size() - 1)); //Chooses a random plant within the radius  
+			//System.out.println("chosen plant: " + chosen);
+			ArrayList<Plant> plantsInLine = getPlantsInLine(grid //Creates a flight path towards the chosen plant
+					.getLocation(chosen));
+			plantsInLine.remove(thisPlant);
+			//System.out.println("Plants in line: " + plantsInLine);
+			p = null;
+			for (Plant o : plantsInLine) { // Chooses preferred plants, landing is stochastic, with probability of being arrested on the plant
+				double arrestmentProb = 1 -(o.getSpeciesParams().getFlightChance());
+				//System.out.println("arrestment prob= " + arrestmentProb);
+				if(o.getSpeciesParams().getFlightChance() <= lowestFlightChance
+						&& RandomHelper.nextDoubleFromTo(0,1) < arrestmentProb // likelihood of being arrested is the inverse of the flight chance
+						&& !visitedPlants.contains(o)) {
+					p = o;
+					break;
+				}
+			}
+			
+			if (p == null) {
+				p = plantsInLine.get(plantsInLine.size()- 1); // if the insects doesn't land, it moves to last plant in the plants in line array
+			}
+		}
+		//System.out.println("p= " +p);
+		return p;
+	}
+			
+/*		int moveLength = speciesParams.getMaxFlightLength();
 		int radius = RandomHelper.nextIntFromTo(1, moveLength);
 		GridCellNgh<Plant> nghCreator = new GridCellNgh<Plant>(grid, grid.getLocation(this), Plant.class,radius,radius);
 		List<GridCell<Plant>> gridCells = nghCreator.getNeighborhood(false);
@@ -540,7 +575,7 @@ public class Insect {
 	}
 		//System.out.println("new plant= " + p);
 		return p;//System.out.println("this flight chance = " + thisFlightChance);	
-	}
+	}*/
 
 	public String getLastPlant(){
 		GridPoint insPoint = grid.getLocation(this);
